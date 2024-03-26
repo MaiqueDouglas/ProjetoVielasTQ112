@@ -1,5 +1,6 @@
 import Header from './componentes/Header/Header';
 import Atalho from './componentes/Atalho/Atalho';
+import Banner from './componentes/Banner/Banner';
 
 
 
@@ -9,6 +10,7 @@ function App() {
       <div>
         <Header />
         <Atalho />
+        <Banner/>
       </div>
     );
   

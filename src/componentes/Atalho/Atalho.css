@@ -1,20 +1,33 @@
 .atalhos {
-    
-        position: absolute;
-        top: 200px;
-        left: 215px;
-        right: 0;
-        display: flex;
-        gap: 150px;  
-    
+  position: absolute;
+  top: 230px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 30px; /* Adiciona um espaçamento interno de 25px nos lados */
+  box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
 }
 
-.atalhos a{
-    text-align: left;
-    text-decoration: underline;
-    font: italic normal normal 30px/45px Space Mono;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
+.atalhos a {
+  flex: 0 0 auto;
+  text-align: left;
+  text-decoration: underline;
+  font: italic normal normal 1.5vw/3.75vh Space Mono;
+  color: #000000;
+  opacity: 1;
+  
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .atalhos {
+    width: 90%;
+    top: 220px; 
+  
+  }
+
 
 }

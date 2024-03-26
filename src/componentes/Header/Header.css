@@ -1,121 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
 
 
 .container {
-    position: relative;
-    width: 100%;
-    height: 100px;
-    background-color: #4761b4;
-    display: flex;
-    justify-content: flex-start; 
-    align-items: center; 
-    padding-left: 12px; 
-  }
-  
-  .container h1 {
-    font-family: 'Space Mono', monospace;
-    font-weight: bold;
-    font-size: 46px;
-    color: #ffffff;
-    margin-right: 25px; 
-  }
-  
-  .menu {
-    width: 93px;
-    height: 51px;
-    opacity: 1;
-    margin-right: 0px; 
-    margin-left: 50px;  
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #4761b4;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+  padding-left: 190px; 
 }
 
-  
-  .linha {
-    width: 70px;
-    height: 10px;
-    background-color: white;
-    margin: 5px 0;
-  }
-  
-  .input-container {
-    position: relative;
-    top: 0;
-    left: 0;
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    padding-left: 190px;
-    padding-right: 190px;
-    margin-top: 30px;
+.container h1 {
+  font-family: 'Space Mono', monospace;
+  text-align: left;
+  font-weight: bold;
+  font-size: 46px;
+  color: #ffffff;
 }
 
-   
+.menu {
+  position: absolute;
+  width: 115px;
+  height: 70px; 
+  left: 5px; 
+}
+
+.linha {
+  width: 90px;
+  height: 15px;
+  background-color: white;
+  margin: 5px ;
+  margin-left: 70px;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  padding: 0 12%; 
+}
 
 .input-container input {
-    position: relative;
-    width: 100%;
-    height: 50px;
-    background: #FFFFFF;
-    border: 2px solid #707070;
-    border-radius: 35px;
-    opacity: 1;
-    font-size: 45px #CCCCCC;
-    padding: 20px;
-    left: 50px;
-    
-    
-    
+  flex: 1;
+  height: 50px;
+  background: #FFFFFF;
+  border: 2px solid #707070;
+  border-radius: 35px;
+  padding-left: 40px;
+  position: relative; 
+}
+
+.input-container img {
+  position: absolute; 
+  height: 30px;
+  width: 30px;
+  right: calc(100% - 265px); 
+  top: 50%; 
+  transform: translateY(-49%); 
+  
+}
+
+.input-container span {
+  position: relative; 
+  color: #CCCCCC;
+}
+
+.login {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 3%; 
+  display: flex;
+  align-items: center;
+}
+
+.login span {
+  text-align: left;
+  font: normal normal normal 2vw/3vh Space Mono; 
+  letter-spacing: 0px;
+  color: #CCCCCC;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+.login span:hover {
+  text-decoration: underline;
+}
+
+.login img {
+  width: 73px; 
+  height: auto; 
+}
+
+@media screen and (max-width: 768px) {
+  .input-container {
+    padding: 0 10px; 
+    position: relative; 
   }
 
-  .input-container img{
-   
-      position: absolute;
-      top: 12px; 
-      left: 200px;
-      width: 30px;
-      height: 30px;
-      opacity: 1;
-      
-  }
+  .input-container img {
+    position: absolute; 
+    transform: translateY(-15px) translateX(-215px);
   
+  }
+
+  .input-container span {
+    position: relative; 
+    margin-right: 5px; 
+  }
+
   .login {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 20px;
-    display: flex;
-    align-items: center;
-    margin-right: 40px;
+    right: 2%; 
   }
-  
+
   .login span {
-    text-align: center;
-    font: normal normal normal 30px/45px Space Mono;
-    letter-spacing: 0px;
-    color: #CCCCCC;
-    opacity: 1;
-    margin-right: 10px;
+    font-size: 3.5vw; 
   }
 
-  .login span:hover{
-    text-decoration: underline;
-
-    }
-  
   .login img {
-    width: 73px;
-    height: 73px;
+    width: 10vw; 
+    max-height: auto; 
+  } 
+
+  .container {
+    padding: 0 10px; 
+    position: relative;
+  }
+
+  .container h1 {
+    font-size: 36px;
+    position: absolute;
+    transform: translateY(-50%) translateY(50%);
+    margin-left: 60px;
+    left: 5px;    
+  }
+
+  .linha {
+    margin: 10%;
+    width: 10vw;
+    height: 8px;
+  }
+
+
+}
+@media screen and (max-width: 1300px){
+  .input-container img {
+    position: relative; 
+    height: 30px;
+    width: 30px;
+    right: calc(100% - 40px); 
+    top: 12px; 
+    transform: translateY(-42%); 
     
   }
-  
-  
-     
-   
-    
 
-  
+}
+

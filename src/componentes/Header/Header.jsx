@@ -1,5 +1,7 @@
 import React from "react";
 import './Header.css';
+import usuario from "../../assets/usuario.png"
+
 
 
 
@@ -16,7 +18,7 @@ function Header() {
      
         <div className="login">
           <span>Login</span>
-{/*          <img src={usuario} alt="User Icon" />   */}
+          <img src={usuario} alt="User Icon" />   
         </div>
      
       </div>
