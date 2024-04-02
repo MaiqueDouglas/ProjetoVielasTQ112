@@ -1,67 +1,364 @@
 .banner {
     position: absolute;
-    top: 300px;
-    left: 140px;
-    width: 500px;
-    height: 569px;
-    background: #4761B4;
+    top: 344px;
+    left: 145px;
+    width: 536px;
+    height: 570px;
+    background: var(---4761b4) 0% 0% no-repeat padding-box;
+    background: #4761B4 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
-    opacity: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-right: 25px; 
-    padding-left: 25px;
+    opacity: 1; 
+    margin-left: -30px; 
 }
 
 .banner h1 {
-    width: 210px;
-    height: 95px;
+    position: relative;
+    top: 225px;
+    left: 168px;
+    width: 220px;
+    height: 89px;
+    margin-left: -140px;
     text-align: left;
     font: normal normal bold 60px/89px Space Mono;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    margin-left: 18px; 
 }
 
 .banner p {
+    position: relative;
+    top: 231px;
+    left: 168px;
     width: 464px;
-    height: 220px;
+    height: 241px;
+    margin-left: -140px;
     text-align: left;
-    font: italic normal normal 23px/30px Space Mono;
+    font: italic normal normal 25px/37px Space Mono;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    margin-left: 18px; 
     
 }
 
-.banner-imagem{
+.banner-imagem img{
     position: absolute;
-    top: 1px;
-    left: 530px; 
+    top: -1px;
+    left: 692px;
     width: 1088px;
-    height: 573px; 
-    margin-left: -25px;
+    height: 570px;
+    opacity: 1;
+    margin-left: -140px;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1280px){
     .banner {
-        width: 90%; 
-        left: 5%; 
-        top: 350px; 
-        height: auto; 
+        top: 340px;
+        margin-left: -120px;
+        width: 436px;
+        height: 440px;
+        
+    }
+    .banner-imagem img{
+        left: 585px; 
+        margin-right: 10px;
+        width: 780px;
+        height: 440px;  
+    }
+    .banner h1 {
+        top: 160px;
+        left: 168px;
+        font: normal normal bold 50px/80px Space Mono;
+        
     }
     
-    .banner h1 {
-        font-size: 4vw; 
-    }
-
     .banner p {
-        font-size: 2vw; 
+        top: 150px;
+        left: 168px;
+        margin-left: -140px;
+        font: italic normal normal 20px/30px Space Mono;
+        
+        
     }
-
-
 
 }
+@media screen and (max-width:1024px){
+    .banner {
+        top: 310px;
+        margin-left: -130px;
+        width: 400px;
+        height: 400px;
+        
+    }
+    .banner-imagem img{
+        left: 545px; 
+        margin-right: 10px;
+        width: 585px;
+        height: 400px;  
+    }
+    .banner h1 {
+        top: 160px;
+        left: 168px;
+        font: normal normal bold 50px/80px Space Mono;
+        
+    }
+    
+    .banner p {
+        top: 150px;
+        left: 168px;
+        margin-left: -140px;
+        font: italic normal normal 20px/30px Space Mono;
+        
+        
+    }
+
+}
+@media screen and (max-width:912px){
+    .banner {
+        top: 280px;
+        margin-left: -112px;
+        width: 380px;
+        height: 280px;   
+    }
+    .banner-imagem img{
+        left: 525px; 
+        width: 455px;
+        height: 280px;  
+    }
+    .banner h1 {
+        top: -1px;
+        left: 168px;
+        font: normal normal bold 30px/80px Space Mono;
+    }
+    .banner p {
+        top: -15px;
+        left: 168px;
+        margin-left: -140px;
+        font: italic normal normal 18px/30px Space Mono;   
+    }
+}
+@media screen and (max-width:853px){
+    .banner {
+        top: 280px;
+        margin-left: -100px;
+        width: 300px;
+        height: 280px;   
+    }
+    .banner-imagem img{
+        left: 445px; 
+        width: 455px;
+        height: 280px;  
+    }
+    .banner h1 {
+        top: -1px;
+        left: 150px;
+        font: normal normal bold 25px/80px Space Mono;
+    }
+    .banner p {
+        top: -15px;
+        left: 150px;
+        margin-left: -140px;
+        font: italic normal normal 15px/30px Space Mono;   
+    }
+}
+@media screen and (max-width:820px){
+    .banner {
+        top: 280px;
+        margin-left: -118px;
+        width: 300px;
+        height: 280px;   
+    }
+    .banner-imagem img{
+        left: 445px; 
+        width: 455px;
+        height: 280px;  
+    }
+    .banner h1 {
+        top: -1px;
+        left: 150px;
+        font: normal normal bold 25px/80px Space Mono;
+    }
+    .banner p {
+        top: -15px;
+        left: 150px;
+        margin-left: -140px;
+        font: italic normal normal 15px/30px Space Mono;   
+    }
+}
+@media screen and (max-width:768px){
+    .banner {
+        top: 280px;
+        margin-left: -118px;
+        width: 260px;
+        height: 280px;   
+    }
+    .banner-imagem img{
+        left: 405px; 
+        width: 445px;
+        height: 280px;  
+    }
+    .banner h1 {
+        top: -1px;
+        left: 150px;
+        font: normal normal bold 20px/80px Space Mono;
+    }
+    .banner p {
+        top: -15px;
+        left: 150px;
+        margin-left: -140px;
+        font: italic normal normal 12px/30px Space Mono;   
+    }
+}
+@media screen and (max-width:540px){
+    .banner {
+        top: 220px;
+        margin-left: -100px;
+        width: 450px;
+        height: 210px;   
+    }
+    .banner-imagem img{
+        top: 220px;
+        left: 140px; 
+        width: 450px;
+        height: 250px;  
+    }
+    .banner h1 {
+        top: -20px;
+        left: 160px;
+        font: normal normal bold 20px/80px Space Mono;
+    }
+    .banner p {
+        top: -45px;
+        left: 160px;
+        margin-left: -140px;
+        font: italic normal normal 15px/25px Space Mono;   
+    }
+}
+@media screen and (max-width:430px){
+    .banner {
+        top: 190px;
+        margin-left: -105px;
+        width: 350px;
+        height: 210px;   
+    }
+    .banner-imagem img{
+        top: 220px;
+        left: 140px; 
+        width: 350px;
+        height: 210px;  
+    }
+    .banner h1 {
+        top: -20px;
+        left: 160px;
+        font: normal normal bold 20px/80px Space Mono;
+    }
+    .banner p {
+        top: -45px;
+        left: 160px;
+        margin-left: -140px;
+        font: italic normal normal 15px/25px Space Mono;   
+    }
+}
+@media screen and (max-width:414px){
+    .banner {
+        top: 190px;
+        margin-left: -112px;
+        width: 350px;
+        height: 210px;   
+    }
+    .banner-imagem img{
+        top: 220px;
+        left: 140px; 
+        width: 350px;
+        height: 210px;  
+    }
+    .banner h1 {
+        top: -20px;
+        left: 160px;
+        font: normal normal bold 20px/80px Space Mono;
+    }
+    .banner p {
+        top: -45px;
+        left: 160px;
+        margin-left: -140px;
+        font: italic normal normal 15px/25px Space Mono;   
+    }
+}
+@media screen and (max-width:390px){
+    .banner {
+        top: 170px;
+        margin-left: -125px;
+        width: 350px;
+        height: 210px;   
+    }
+    .banner-imagem img{
+        top: 220px;
+        left: 140px; 
+        width: 350px;
+        height: 210px;  
+    }
+    .banner h1 {
+        top: -20px;
+        left: 160px;
+        font: normal normal bold 20px/80px Space Mono;
+    }
+    .banner p {
+        top: -45px;
+        left: 160px;
+        margin-left: -140px;
+        font: italic normal normal 15px/25px Space Mono;   
+    }
+}
+@media screen and (max-width:375px){
+    .banner {
+        top: 170px;
+        margin-left: -125px;
+        width: 330px;
+        height: 210px;   
+    }
+    .banner-imagem img{
+        top: 220px;
+        left: 140px; 
+        width: 330px;
+        height: 210px;  
+    }
+    .banner h1 {
+        top: -20px;
+        left: 160px;
+        font: normal normal bold 20px/80px Space Mono;
+    }
+    .banner p {
+        top: -45px;
+        left: 160px;
+        margin-left: -140px;
+        font: italic normal normal 15px/25px Space Mono;   
+    }
+}
+@media screen and (max-width:360px){
+    .banner {
+        top: 170px;
+        margin-left: -135px;
+        width: 340px;
+        height: 210px;   
+    }
+    .banner-imagem img{
+        top: 220px;
+        left: 140px; 
+        width: 340px;
+        height: 210px;  
+    }
+    .banner h1 {
+        top: -20px;
+        left: 160px;
+        font: normal normal bold 20px/80px Space Mono;
+    }
+    .banner p {
+        top: -45px;
+        left: 160px;
+        margin-left: -140px;
+        font: italic normal normal 15px/25px Space Mono;   
+    }
+}
+
+
+

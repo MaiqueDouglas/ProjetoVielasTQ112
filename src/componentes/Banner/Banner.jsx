@@ -1,6 +1,6 @@
 import React from "react";
 import './Banner.css';
-import imagem from '../../assets/banner3.jpeg'
+import imagem from '../../assets/banner-imagem.jpg'
 
 
 function Banner() {
@@ -16,7 +16,12 @@ function Banner() {
          pensa nelas.
       </p>
         <div className="banner-imagem">
-          <img src={imagem} alt="Imagem 1" />
+          <img 
+          src={imagem} 
+          alt="Imagem 1"
+          height={350}
+          width={650}
+          />
         </div>
       </div>
    

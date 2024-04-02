@@ -1,33 +1,274 @@
 .atalhos {
   position: absolute;
-  top: 230px;
+  top: 260px;
   left: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 30px; /* Adiciona um espaçamento interno de 25px nos lados */
-  box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+  padding: 0 50px; 
 }
 
 .atalhos a {
-  flex: 0 0 auto;
   text-align: left;
   text-decoration: underline;
-  font: italic normal normal 1.5vw/3.75vh Space Mono;
+  font: italic normal normal 30px/45px Space Mono;
+  letter-spacing: 0px;
   color: #000000;
   opacity: 1;
   
 }
 
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px){
   .atalhos {
-    width: 90%;
-    top: 220px; 
-  
+    position: absolute;
+    top: 260px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 70px; 
   }
-
-
+  
+  .atalhos a {
+    text-align: left;
+    text-decoration: underline;
+    font: italic normal normal 25px/45px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    
+  }
+}
+@media screen and (max-width: 1024px){
+  .atalhos {
+    position: absolute;
+    top: 255px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 70px; 
+  }
+  
+  .atalhos a {
+    text-align: left;
+    text-decoration: underline;
+    font: italic normal normal 20px/5px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    
+  }
+}
+@media screen and (max-width: 912px){
+  .atalhos {
+    position: absolute;
+    top: 240px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px; 
+  }
+  
+  .atalhos a {
+    text-align: left;
+    text-decoration: underline;
+    font: italic normal normal 15px/5px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    
+  }
+}
+@media screen and (max-width: 853px){
+  .atalhos {
+  
+    top: 240px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 80px;
+    margin-left: 13px; 
+  }
+  
+  .atalhos a {
+    text-align: left;
+    text-decoration: underline;
+    font: italic normal normal 15px/5px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    
+  }
+}
+@media screen and (max-width: 768px){
+  .atalhos {
+  
+    top: 240px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 80px;
+    margin-left: 1px; 
+  }
+  
+  .atalhos a {
+    text-align: left;
+    text-decoration: underline;
+    font: italic normal normal 15px/5px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    
+  }
+}
+@media screen and (max-width: 540px){
+  .atalhos {
+  
+    top: 190px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    margin-left: 1px; 
+  }
+  
+  .atalhos a {
+    text-align: left;
+    text-decoration: underline;
+    font: italic normal normal 10px/5px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    
+  }
+}
+@media screen and (max-width: 430px){
+  .atalhos {
+  
+    top: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1px;
+    margin-left: 1px; 
+  }
+  
+  .atalhos a {
+    text-align: left;
+    text-decoration: underline;
+    font: italic normal normal 5/0px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    
+  }
+}
+@media screen and (max-width: 414px){
+  .atalhos {
+    top: 160px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1px; 
+  }
+  
+  .atalhos a {
+    text-align: left;
+    text-decoration: underline;
+    font: italic normal normal 8px/1px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    padding: 0 10px;
+    opacity: 1;
+    
+  }
+}
+@media screen and (max-width: 412px){
+  .atalhos {
+    top: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1px; 
+  }
+  
+  .atalhos a {
+    text-align: left;
+    text-decoration: underline;
+    font: italic normal normal 7px/1px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    
+  }
+}
+@media screen and (max-width: 390px){
+  .atalhos {
+  
+    top: 145px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px; 
+  }
+  
+  .atalhos a {
+    text-align: left;
+    text-decoration: underline;
+    font: italic normal normal 6px/0px Space Mono;
+    color: #000000;
+    opacity: 1;
+    
+  }
+}
+@media screen and (max-width: 375px){
+  .atalhos {
+    top: 145px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 32px; 
+  }
+  
+  .atalhos a {
+    text-align: left;
+    text-decoration: underline;
+    font: italic normal normal 5px/0px Space Mono;
+    color: #000000;
+    opacity: 1;
+    
+  }
+}
+@media screen and (max-width: 360px){
+  .atalhos {
+  
+    top: 145px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15px; 
+  }
+  
+  .atalhos a {
+    text-align: left;
+    text-decoration: underline;
+    font: italic normal normal 5px/0px Space Mono;
+    color: #000000;
+    opacity: 1;
+    
+  }
 }

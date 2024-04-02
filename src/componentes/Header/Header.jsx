@@ -2,9 +2,6 @@ import React from "react";
 import './Header.css';
 import usuario from "../../assets/usuario.png"
 
-
-
-
 function Header() {
   return (
     <div>
@@ -20,18 +17,7 @@ function Header() {
           <span>Login</span>
           <img src={usuario} alt="User Icon" />   
         </div>
-     
       </div>
-
-      <form>
-        <div className='input-container'>
-          <input type="text" placeholder='BUSCA' />
-          <img
-            src="https://img.icons8.com/material-rounded/24/search.png"
-            alt="search"
-          />
-        </div>
-      </form>
    </div>
   );
 }
