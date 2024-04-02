@@ -14,6 +14,7 @@
   text-decoration: underline;
   font: italic normal normal 30px/45px Space Mono;
   letter-spacing: 0px;
+  margin-left: -35px;
   color: #000000;
   opacity: 1;
   
@@ -137,7 +138,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 0 20px;
-    margin-left: 1px; 
+    margin-left: 15px; 
   }
   
   .atalhos a {
@@ -158,17 +159,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 1px;
-    margin-left: 1px; 
+    
   }
   
   .atalhos a {
     text-align: left;
     text-decoration: underline;
-    font: italic normal normal 5/0px Space Mono;
+    font: italic normal normal 10/0px Space Mono;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+    margin-left: -5px;
     
   }
 }
@@ -221,7 +222,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-left: 30px; 
+    margin-left: 25px; 
   }
   
   .atalhos a {
@@ -246,7 +247,7 @@
   .atalhos a {
     text-align: left;
     text-decoration: underline;
-    font: italic normal normal 5px/0px Space Mono;
+    font: italic normal normal 5px/1px Space Mono;
     color: #000000;
     opacity: 1;
     
@@ -261,6 +262,25 @@
     justify-content: space-around;
     align-items: center;
     margin-left: 15px; 
+  }
+  
+  .atalhos a {
+    text-align: left;
+    text-decoration: underline;
+    font: italic normal normal 5px/0px Space Mono;
+    color: #000000;
+    opacity: 1;
+    
+  }
+}
+@media screen and (max-width: 280px){
+  .atalhos {
+    top: 145px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -12px; 
   }
   
   .atalhos a {

@@ -54,26 +54,26 @@
 @media screen and (max-width: 1280px){
     .banner {
         top: 340px;
-        margin-left: -120px;
-        width: 436px;
-        height: 440px;
+        margin-left: -100px;
+        width: 420px;
+        height: 420px;
         
     }
     .banner-imagem img{
-        left: 585px; 
+        left: 565px; 
         margin-right: 10px;
-        width: 780px;
-        height: 440px;  
+        width: 760px;
+        height: 420px;  
     }
     .banner h1 {
-        top: 160px;
+        top: 120px;
         left: 168px;
         font: normal normal bold 50px/80px Space Mono;
         
     }
     
     .banner p {
-        top: 150px;
+        top: 130px;
         left: 168px;
         margin-left: -140px;
         font: italic normal normal 20px/30px Space Mono;
@@ -85,29 +85,29 @@
 @media screen and (max-width:1024px){
     .banner {
         top: 310px;
-        margin-left: -130px;
-        width: 400px;
-        height: 400px;
+        margin-left: -80px;
+        width: 380px;
+        height: 350px;
         
     }
     .banner-imagem img{
-        left: 545px; 
+        left: 525px; 
         margin-right: 10px;
-        width: 585px;
-        height: 400px;  
+        width: 500px;
+        height: 350px;  
     }
     .banner h1 {
-        top: 160px;
+        top: 20px;
         left: 168px;
-        font: normal normal bold 50px/80px Space Mono;
+        font: normal normal bold 45px/80px Space Mono;
         
     }
     
     .banner p {
-        top: 150px;
+        top: 30px;
         left: 168px;
         margin-left: -140px;
-        font: italic normal normal 20px/30px Space Mono;
+        font: italic normal normal 18px/30px Space Mono;
         
         
     }
@@ -255,6 +255,8 @@
     .banner p {
         top: -45px;
         left: 160px;
+        height: ;
+        width: 280px;
         margin-left: -140px;
         font: italic normal normal 15px/25px Space Mono;   
     }
@@ -280,8 +282,10 @@
     .banner p {
         top: -45px;
         left: 160px;
+        height: 300px;
+        width: 250px;
         margin-left: -140px;
-        font: italic normal normal 15px/25px Space Mono;   
+        font: italic normal normal 12px/25px Space Mono;   
     }
 }
 @media screen and (max-width:390px){
@@ -305,8 +309,10 @@
     .banner p {
         top: -45px;
         left: 160px;
+        height: 330px;
+        width: 270px;
         margin-left: -140px;
-        font: italic normal normal 15px/25px Space Mono;   
+        font: italic normal normal 12px/25px Space Mono;   
     }
 }
 @media screen and (max-width:375px){
@@ -330,8 +336,9 @@
     .banner p {
         top: -45px;
         left: 160px;
-        margin-left: -140px;
-        font: italic normal normal 15px/25px Space Mono;   
+        height: 330px;
+        width: 270px;
+        font: italic normal normal 12px/25px Space Mono;   
     }
 }
 @media screen and (max-width:360px){
@@ -356,7 +363,34 @@
         top: -45px;
         left: 160px;
         margin-left: -140px;
-        font: italic normal normal 15px/25px Space Mono;   
+        font: italic normal normal 12px/25px Space Mono;   
+    }
+}
+@media screen and (max-width:280px){
+    .banner {
+        top: 170px;
+        margin-left: -125px;
+        width: 240px;
+        height: 160px;   
+    }
+    .banner-imagem img{
+        top: 165px;
+        left: 140px; 
+        width: 240px;
+        height: 160px;  
+    }
+    .banner h1 {
+        top: -20px;
+        left: 150px;
+        font: normal normal bold 18px/80px Space Mono;
+    }
+    .banner p {
+        top: -45px;
+        left: 150px;
+        width: 230px;
+        height: 160px;
+        margin-left: -140px;
+        font: italic normal normal 12px/15px Space Mono;   
     }
 }
 

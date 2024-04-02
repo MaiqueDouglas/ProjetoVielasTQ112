@@ -350,3 +350,35 @@
    }
    
 }
+@media screen and (max-width: 280px){
+  .container{
+    height:70px;
+    width: 100%;
+  }
+  .container h1 {
+    margin-top: 15px;
+    margin-left: -120px;
+    font-size: 18px; 
+    width: 20px;  
+   }
+   
+   .linha {
+     top:17px ;
+     margin-left: -30px;
+     width: 30px;
+     height: 5px;
+   }
+   .login {
+    margin-left: 178px;
+    font-size: 14px;
+   }
+   .login span{
+     margin-right: -20px;
+   }
+   .login img{
+    width: 40px; 
+    height: auto;
+    
+   }
+   
+}
