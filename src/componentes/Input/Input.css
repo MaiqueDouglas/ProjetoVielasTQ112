@@ -409,7 +409,7 @@
   }
   input{
     padding-left: 1px;
-    padding-top: -1px;
+    padding-top: px;
   }
   .input-container img {
     position: absolute;
@@ -425,7 +425,7 @@
     width: 92px;
     height: 45px;
     text-align: left;
-    font: normal normal normal 15px/45px Space Mono;
+    font: normal normal normal 10px/45px Space Mono;
     letter-spacing: 0px;
     color: #CCCCCC;
     opacity: 1;
