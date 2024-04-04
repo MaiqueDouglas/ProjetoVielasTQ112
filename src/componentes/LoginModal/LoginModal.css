@@ -1,0 +1,678 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+
+.modal-overlay {
+  position: fixed;
+  top: 120px;
+  left: 554px;
+  width: 812px;
+  height: 706px;
+  background: var(---4761b4) 0% 0% no-repeat padding-box;
+  background: #4761B4 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  text-align: center;
+  z-index: 1000; 
+}
+
+.modal-content {
+  position: relative;
+  z-index: 1001; 
+}
+
+  .modal-content h2 {
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 90px;
+    font: normal normal bold 42px/62px Space Mono;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  
+  
+  .modal-content input {
+    width: 695px;
+    height: 74px;
+    margin-top: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 37px;
+    opacity: 1;
+  }
+
+  .modal-content input::placeholder{
+    position: absolute;
+    margin-left: -45px;
+    margin-top:-20px;
+    font: normal normal normal 35px/52px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+  .modal-content button {
+    margin-top: 60px;
+    width: 295px;
+    height: 85px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 34px;
+    opacity: 1;
+  }
+
+  button {
+    color: var(--unnamed-color-e5401b);
+    text-align: center;
+    font: normal normal bold 41px/61px Space Mono;
+    letter-spacing: 0px;
+    color: #E5401B;
+    opacity: 1;
+  }
+  .logout-button {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute; 
+    right: 20px; 
+    top: 5px; 
+}
+
+.logout-button:hover {
+    color: darkgray; 
+}
+
+  .modal-content p{
+    margin-right: 130px;
+    margin-top: 50px;
+    font: normal normal normal 20px/29px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .modal-content a{
+    position: absolute;
+    margin-left: 10px;
+    text-decoration: underline;
+    font: normal normal normal 20px/29px Space Mono;
+    letter-spacing: 0px;
+    color: #1473E6;
+  }
+  .checkbox-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    width: 21px;
+    height: 21px;
+    margin-left: 150px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+  
+  .checkbox-container label {
+    margin-top: 25px;
+    margin-left: 10px;
+    text-align: left;
+    font: normal normal normal 20px/29px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+@media screen and (max-width: 1280px) {
+    .modal-overlay {
+      position: fixed;
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      width: 662px;
+      height: 600px;
+      align-items: center;
+      display: flex;
+      z-index: 1000; 
+    }
+
+    .modal-content h2 {
+      text-align: left;
+      margin-left: 70px;
+      margin-top: 50px;
+      margin-bottom: -15px; 
+      font: normal normal bold 32px/62px Space Mono;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+    }
+    
+    .modal-content input {
+      width: 595px;
+      height: 74px;
+      margin-top: 30px; 
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 37px;
+      opacity: 1;
+    }
+    
+
+    .modal-content input::placeholder{
+      position: absolute;
+      margin-left: -45px;
+      margin-top:-15px;
+      font: normal normal normal 25px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+    .checkbox-container input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      margin-left: 150px;
+      margin-top: 1px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      opacity: 1;
+    }
+    
+    .checkbox-container label {
+      margin-top: 1px;
+      margin-left: 10px;
+      text-align: left;
+      font: normal normal normal 18px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+    button {
+      color: var(--unnamed-color-e5401b);
+      text-align: center;
+      font: normal normal bold 31px/61px Space Mono;
+      letter-spacing: 0px;
+      color: #E5401B;
+      opacity: 1;
+    }
+    .modal-content button {
+      margin-top: 30px;
+      width: 200px;
+      height: 75px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 34px;
+      opacity: 1;
+    }
+    .modal-content p{
+      margin-right: 130px;
+      margin-top: 10px;
+      font: normal normal normal 18px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+    }
+    .modal-content a{
+      position: absolute;
+      margin-left: 10px;
+      text-decoration: underline;
+      font: normal normal normal 18px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #1473E6;
+    }
+  }
+@media screen and (max-width: 1024px) {
+    .modal-overlay {
+      position: fixed;
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      width: 562px;
+      height: 500px;
+      align-items: center;
+      display: flex;
+      z-index: 1000; 
+    }
+
+    .modal-content h2 {
+      text-align: left;
+      margin-left: 70px;
+      margin-top: 50px;
+      margin-bottom: -15px; 
+      font: normal normal bold 28px/62px Space Mono;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+    }
+    
+    .modal-content input {
+      width: 495px;
+      height: 64px;
+      margin-top: 30px; 
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 37px;
+      opacity: 1;
+    }
+    
+
+    .modal-content input::placeholder{
+      position: absolute;
+      margin-left: -45px;
+      margin-top:-7px;
+      font: normal normal normal 18px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+    .checkbox-container input[type="checkbox"] {
+      width: 15px;
+      height: 15px;
+      margin-left: 150px;
+      margin-top: 1px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      opacity: 1;
+    }
+    
+    .checkbox-container label {
+      margin-top: 1px;
+      margin-left: 10px;
+      text-align: left;
+      font: normal normal normal 15px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+    button {
+      color: var(--unnamed-color-e5401b);
+      text-align: center;
+      font: normal normal bold 28px/61px Space Mono;
+      letter-spacing: 0px;
+      color: #E5401B;
+      opacity: 1;
+    }
+    .modal-content button {
+      margin-top: 20px;
+      width: 150px;
+      height: 60px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 34px;
+      opacity: 1;
+    }
+    .modal-content p{
+      margin-right: 130px;
+      margin-top: 10px;
+      font: normal normal normal 15px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+    }
+    .modal-content a{
+      position: absolute;
+      margin-left: 10px;
+      text-decoration: underline;
+      font: normal normal normal 15px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #1473E6;
+    }
+  }
+@media screen and (max-width: 540px) {
+    .modal-overlay {
+      position: fixed;
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      width: 380px;
+      height: 400px;
+      align-items: center;
+      display: flex;
+      z-index: 1000; 
+    }
+
+    .modal-content h2 {
+      text-align: left;
+      margin-left: 40px;
+      margin-top: -40px;
+      margin-bottom: -20px; 
+      font: normal normal bold 25px/62px Space Mono;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+    }
+    
+    .modal-content input {
+      width: 350px;
+      height: 60px;
+      margin-top: 20px; 
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 37px;
+      opacity: 1;
+    }
+    
+
+    .modal-content input::placeholder{
+      position: absolute;
+      margin-left: -55px;
+      margin-top:-3px;
+      font: normal normal normal 15px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+    .checkbox-container input[type="checkbox"] {
+      width: 12px;
+      height: 12px;
+      margin-left: 40px;
+      margin-top: -10px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      opacity: 1;
+    }
+    
+    .checkbox-container label {
+      margin-top: -10px;
+      margin-left: 5px;
+      text-align: left;
+      font: normal normal normal 12px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+    button {
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      color: var(--unnamed-color-e5401b);
+      text-align: center;
+      margin-top: -1px;
+      font: normal normal bold 20px/61px Space Mono;
+      letter-spacing: 0px;
+      color: #E5401B;
+      opacity: 1;
+      
+    }
+    .modal-content button {
+      
+      width: 110px;
+      height: 40px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 34px;
+      opacity: 1;
+      margin: 0 auto;
+    }
+    .modal-content p{
+      margin-right: 130px;
+      margin-top: 1px;
+      font: normal normal normal 12px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+    }
+    .modal-content a{
+      position: absolute;
+      margin-left: 10px;
+      text-decoration: underline;
+      font: normal normal normal 12px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #1473E6;
+    }
+    .logout-button {
+      background: none;
+      border: none;
+      color: black;
+      font-size: 30px;
+      cursor: pointer;
+      position: absolute; 
+      right: 10px; 
+      top: 5px; 
+  }
+  }
+@media screen and (max-width: 430px) {
+    .modal-overlay {
+      position: fixed;
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      width: 350px;
+      height: 500px;
+      align-items: center;
+      display: flex;
+      z-index: 1000; 
+    }
+
+    .modal-content h2 {
+      text-align: left;
+      margin-left: 50px;
+      margin-top: -40px;
+      margin-bottom: -10px; 
+      font: normal normal bold 28px/62px Space Mono;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+    }
+    
+    .modal-content input {
+      width: 290px;
+      height: 50px;
+      margin-top: 20px; 
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 37px;
+      opacity: 1;
+    }
+    
+
+    .modal-content input::placeholder{
+      position: absolute;
+      margin-left: 20px;
+      margin-top:-3px;
+      font: normal normal normal 15px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+    .checkbox-container input[type="checkbox"] {
+      width: 12px;
+      height: 12px;
+      margin-left: 40px;
+      margin-top: -10px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      opacity: 1;
+    }
+    
+    .checkbox-container label {
+      margin: 0 auto;
+      margin-top: -10px;
+      margin-left: 5px;
+      text-align: left;
+      font: normal normal normal 12px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+    button {
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      color: var(--unnamed-color-e5401b);
+      text-align: center;
+      margin-top: -1px;
+      font: normal normal bold 20px/61px Space Mono;
+      letter-spacing: 0px;
+      color: #E5401B;
+      opacity: 1;
+      
+    }
+    .modal-content button {
+      
+      width: 110px;
+      height: 40px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 34px;
+      opacity: 1;
+      margin: 0 auto;
+    }
+    .modal-content p{
+      margin-right: 130px;
+      margin-top: 1px;
+      font: normal normal normal 12px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+    }
+    .modal-content a{
+      position: absolute;
+      margin-left: 10px;
+      text-decoration: underline;
+      font: normal normal normal 12px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #1473E6;
+    }
+    .logout-button {
+      background: none;
+      border: none;
+      color: black;
+      font-size: 30px;
+      cursor: pointer;
+      position: absolute; 
+      right: 10px; 
+      top: 5px; 
+  }
+  }
+@media screen and (max-width: 390px){
+  .modal-overlay {
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 300px;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    z-index: 1000; 
+  }
+  .modal-content h2 {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: -60px;
+    margin-bottom: -20px; 
+    font: normal normal bold 25px/62px Space Mono;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  }
+@media screen and (max-width: 280px) {
+    .modal-overlay {
+      position: fixed;
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      width: 250px;
+      height: 400px;
+      align-items: center;
+      display: flex;
+      z-index: 1000; 
+    }
+
+    .modal-content h2 {
+      text-align: left;
+      margin-left: 45px;
+      margin-top: -40px;
+      margin-bottom: -10px; 
+      font: normal normal bold 20px/62px Space Mono;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+    }
+    
+    .modal-content input {
+      width: 200px;
+      height: 40px;
+      margin-top: 20px; 
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 37px;
+      opacity: 1;
+    }
+    
+
+    .modal-content input::placeholder{
+      position: absolute;
+      margin-left: 20px;
+      margin-top:-3px;
+      font: normal normal normal 12px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+    .checkbox-container input[type="checkbox"] {
+      width: 12px;
+      height: 12px;
+      margin-left: 40px;
+      margin-top: -10px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      opacity: 1;
+    }
+    
+    .checkbox-container label {
+      margin: 0 auto;
+      margin-top: -10px;
+      margin-left: 5px;
+      text-align: left;
+      font: normal normal normal 12px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+    button {
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      color: var(--unnamed-color-e5401b);
+      text-align: center;
+      margin-top: -1px;
+      font: normal normal bold 18px/61px Space Mono;
+      letter-spacing: 0px;
+      color: #E5401B;
+      opacity: 1;
+      
+    }
+    .modal-content button {
+      
+      width: 100px;
+      height: 30px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 34px;
+      opacity: 1;
+      margin: 0 auto;
+    }
+    .modal-content p{
+      margin-right: 90px;
+      margin-top: 1px;
+      font: normal normal normal 10px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+    }
+    .modal-content a{
+      position: absolute;
+      margin-left: 10px;
+      text-decoration: underline;
+      font: normal normal normal 10px/29px Space Mono;
+      letter-spacing: 0px;
+      color: #1473E6;
+    }
+    .logout-button {
+      background: none;
+      border: none;
+      color: black;
+      font-size: 30px;
+      cursor: pointer;
+      position: absolute; 
+      right: 10px; 
+      top: 5px; 
+  }
+  }

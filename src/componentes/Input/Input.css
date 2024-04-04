@@ -8,7 +8,7 @@
     position: absolute;
     display: flex;
     margin-top: 90px;
-    left: 278px;
+    left: 238px;
     width: 1364px;
     height: 70px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -23,7 +23,7 @@
     position: absolute; 
     height: 50px;
     width: 50px;
-    right: calc(100% - 350px); 
+    right: calc(100% - 310px); 
     top: 60%; 
     transform: translateY(45%);    
   }
@@ -48,13 +48,13 @@
     .input-container input {
       position: relative;
       margin-top: 10px;
-      margin-left: -80px;
+      margin-left: -50px;
       width: 884px;
       height: 70px;
     }
     
     .input-container img {
-      right: calc(100% - 265px); 
+      right: calc(100% - 260px); 
       transform: translateY(-50%);  
     }
     .input-container input::placeholder {
@@ -71,19 +71,19 @@
      .input-container input {
        position: relative;
        margin-top: 5px;
-       margin-left: -170px;
+       margin-left: -130px;
        width: 804px;
        height: 60px;
      }
      
      .input-container img {
-       right: calc(100% - 175px); 
+       right: calc(100% - 165px); 
        transform: translateY(-55%);
        height: 40px;
        width: 40px;  
      }
      .input-container input::placeholder {
-      left: -5px; 
+      left: -13px; 
   }
   }
 @media screen and (max-width: 912px){
@@ -96,14 +96,14 @@
      .input-container input {
        position: relative;
        margin-top: 5px;
-       margin-left: -180px;
+       margin-left: -135px;
        width: 704px;
        height: 50px;
      }
      
      .input-container img {
-       right: calc(100% - 155px); 
-       transform: translateY(-51%);
+       right: calc(100% - 160px); 
+       transform: translateY(-55%);
        height: 40px;
        width: 40px;  
      }
@@ -122,7 +122,7 @@
      .input-container input {
        position: relative;
        margin-top: 5px;
-       margin-left: -200px;
+       margin-left: -160px;
        width: 704px;
        height: 50px;
      }
@@ -148,7 +148,7 @@
     .input-container input {
       position: relative;
       margin-top: 5px;
-      margin-left: -225px;
+      margin-left: -190px;
       width: 704px;
       height: 50px;
     }
@@ -175,7 +175,7 @@
   .input-container input {
     position: relative;
     margin-top: 5px;
-    margin-left: -247px;
+    margin-left: -208px;
     width: 704px;
     height: 50px;
   }
@@ -202,20 +202,20 @@
   .input-container input {
     position: relative;
     margin-top: -5px;
-    margin-left: -237px;
+    margin-left: -195px;
     width: 450px;
     height: 40px;
   }
   
   .input-container img {
-    right: calc(100% - 90px); 
+    right: calc(100% - 85px); 
     transform: translateY(-67%);
     height: 30px;
     width: 30px;  
   }
   .input-container input::placeholder {
-   left: -25px; 
-   font: normal normal normal 20px/15px Space Mono; 
+   left: -30px; 
+   font: normal normal normal 18px/15px Space Mono; 
    top: 1px;
    transform: translateY(1%);
   }   
@@ -246,6 +246,7 @@
     position: relative;
     width: 92px;
     height: 45px;
+    padding-left: 60px;
     text-align: left;
     font: normal normal normal 15px/45px Space Mono;
     letter-spacing: 0px;
@@ -264,7 +265,7 @@
   .input-container input {
     position: relative;
     margin-top: -10px;
-    margin-left: -265px;
+    margin-left: -230px;
     width: 350px;
     height: 30px;
   }
@@ -276,7 +277,7 @@
     width: 20px;  
   }
   .input-container input::placeholder {
-   left: 25px; 
+   left: -25px; 
    font: normal normal normal 15px/15px Space Mono; 
    top: -1px;
    transform: translateY(1%);
@@ -323,7 +324,7 @@
 @media screen and (max-width: 375px){
   .input-container{
     position: absolute;
-    margin-left:25px ;
+    margin-left:30px ;
     
   }
   .input-container input {
@@ -398,7 +399,7 @@
 @media screen and (max-width: 280px){
   .input-container{
     position: absolute;
-    margin-left:25px ;
+    margin-left:30px ;
     
   }
   .input-container input {
@@ -409,7 +410,7 @@
   }
   input{
     padding-left: 1px;
-    padding-top: px;
+    
   }
   .input-container img {
     position: absolute;
@@ -417,13 +418,13 @@
     margin-top: 3px;
     height: 15px;
     width: 15px; 
-    right: calc(100% - 35px); 
+    right: calc(100% - 30px); 
     transform: translateY(-90%); 
   }
   .input-container input::placeholder {
     position: relative;
-    width: 92px;
-    height: 45px;
+    top: -4px;
+    padding-left: 50px;
     text-align: left;
     font: normal normal normal 10px/45px Space Mono;
     letter-spacing: 0px;

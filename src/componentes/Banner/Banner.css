@@ -230,6 +230,8 @@
     .banner p {
         top: -45px;
         left: 160px;
+        width: 400px;
+        height: 241px;
         margin-left: -140px;
         font: italic normal normal 15px/25px Space Mono;   
     }
@@ -263,7 +265,34 @@
 }
 @media screen and (max-width:414px){
     .banner {
-        top: 190px;
+        top: 180px;
+        margin-left: -112px;
+        width: 350px;
+        height: 210px;   
+    }
+    .banner-imagem img{
+        top: 220px;
+        left: 140px; 
+        width: 350px;
+        height: 210px;  
+    }
+    .banner h1 {
+        top: -20px;
+        left: 160px;
+        font: normal normal bold 20px/80px Space Mono;
+    }
+    .banner p {
+        top: -45px;
+        left: 160px;
+        height: 300px;
+        width: 250px;
+        margin-left: -140px;
+        font: italic normal normal 12px/25px Space Mono;   
+    }
+}
+@media screen and (max-width:412px){
+    .banner {
+        top: 180px;
         margin-left: -112px;
         width: 350px;
         height: 210px;   

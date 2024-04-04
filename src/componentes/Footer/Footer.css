@@ -154,7 +154,8 @@
 } 
 @media screen and (max-width: 414px){
   .container-footer {
-    height: 270px;
+   
+    height: 290px;
     width: 100%;
     display: flex;
     flex-direction: column;
