@@ -29,27 +29,63 @@
     color: #FFFFFF;
     opacity: 1;
   }
-  
-  
-  .modal-content input {
+
+  .input-Email{
     width: 695px;
     height: 74px;
     margin-top: 30px;
+    padding-left: 40px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 37px;
     opacity: 1;
-  }
-
-  .modal-content input::placeholder{
-    position: absolute;
-    margin-left: -45px;
-    margin-top:-20px;
     font: normal normal normal 35px/52px Space Mono;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
   }
+
+  .input-Email::placeholder{
+    position: absolute;
+    left: 25px;
+    padding-left: 15px;
+    margin-top:-5px;
+    font: normal normal normal 35px/52px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .input-Password{
+    width: 695px;
+    height: 74px;
+    margin-top: 30px;
+    padding-left: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 37px;
+    opacity: 1;
+    font: normal normal normal 35px/52px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .input-Password::placeholder{
+    position: absolute;
+    left: 25px;
+    padding-left: 15px;
+    margin-top:-5px;
+    font: normal normal normal 35px/52px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .input-Password :required{
+    padding-right: 25px;
+  }
+  
   .modal-content button {
     margin-top: 60px;
     width: 295px;
@@ -68,6 +104,7 @@
     color: #E5401B;
     opacity: 1;
   }
+
   .logout-button {
     background: none;
     border: none;
@@ -77,11 +114,11 @@
     position: absolute; 
     right: 20px; 
     top: 5px; 
-}
+  }
 
-.logout-button:hover {
+  .logout-button:hover {
     color: darkgray; 
-}
+  }
 
   .modal-content p{
     margin-right: 130px;
@@ -90,6 +127,7 @@
     letter-spacing: 0px;
     color: #000000;
   }
+
   .modal-content a{
     position: absolute;
     margin-left: 10px;
@@ -98,6 +136,7 @@
     letter-spacing: 0px;
     color: #1473E6;
   }
+  
   .checkbox-container {
     margin-top: 10px;
     display: flex;
@@ -133,7 +172,11 @@
       height: 600px;
       align-items: center;
       display: flex;
+      display: flex;
+      justify-content: center;
       z-index: 1000; 
+
+      
     }
 
     .modal-content h2 {
@@ -147,26 +190,58 @@
       opacity: 1;
     }
     
-    .modal-content input {
-      width: 595px;
+    .input-Email{
+      width: 600px;
       height: 74px;
-      margin-top: 30px; 
+      margin-top: 30px;
+      padding-left: 40px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
       border-radius: 37px;
       opacity: 1;
-    }
-    
-
-    .modal-content input::placeholder{
-      position: absolute;
-      margin-left: -45px;
-      margin-top:-15px;
-      font: normal normal normal 25px/52px Space Mono;
+      font: normal normal normal 35px/52px Space Mono;
       letter-spacing: 0px;
       color: #000000;
       opacity: 1;
     }
+  
+    .input-Email::placeholder{
+      position: absolute;
+      left: 25px;
+      padding-left: 15px;
+      margin-top:-5px;
+      font: normal normal normal 35px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+  
+    .input-Password{
+      width: 600px;
+      height: 74px;
+      margin-top: 30px;
+      padding-left: 40px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 37px;
+      opacity: 1;
+      font: normal normal normal 35px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+  
+    .input-Password::placeholder{
+      position: absolute;
+      left: 25px;
+      padding-left: 15px;
+      margin-top:-5px;
+      font: normal normal normal 35px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+  
     .checkbox-container input[type="checkbox"] {
       width: 20px;
       height: 20px;
@@ -228,8 +303,11 @@
       width: 562px;
       height: 500px;
       align-items: center;
+      display: flex; 
       display: flex;
-      z-index: 1000; 
+      justify-content: center;
+      z-index: 1000;
+
     }
 
     .modal-content h2 {
@@ -243,22 +321,53 @@
       opacity: 1;
     }
     
-    .modal-content input {
-      width: 495px;
-      height: 64px;
-      margin-top: 30px; 
+    .input-Email{
+      width: 500px;
+      height: 74px;
+      margin-top: 30px;
+      padding-left: 40px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
       border-radius: 37px;
       opacity: 1;
+      font: normal normal normal 35px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
     }
-    
-
-    .modal-content input::placeholder{
+  
+    .input-Email::placeholder{
       position: absolute;
-      margin-left: -45px;
-      margin-top:-7px;
-      font: normal normal normal 18px/52px Space Mono;
+      left: 25px;
+      padding-left: 15px;
+      margin-top:-5px;
+      font: normal normal normal 35px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+  
+    .input-Password{
+      width: 500px;
+      height: 74px;
+      margin-top: 30px;
+      padding-left: 40px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 37px;
+      opacity: 1;
+      font: normal normal normal 35px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+  
+    .input-Password::placeholder{
+      position: absolute;
+      left: 25px;
+      padding-left: 15px;
+      margin-top:-5px;
+      font: normal normal normal 35px/52px Space Mono;
       letter-spacing: 0px;
       color: #000000;
       opacity: 1;
@@ -339,22 +448,52 @@
       opacity: 1;
     }
     
-    .modal-content input {
-      width: 350px;
-      height: 60px;
-      margin-top: 20px; 
+    .input-Email{
+      width: 300px;
+      height: 64px;
+      margin-top: 30px;
+      padding-left: 30px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
       border-radius: 37px;
       opacity: 1;
+      font: normal normal normal 25px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
     }
-    
-
-    .modal-content input::placeholder{
+  
+    .input-Email::placeholder{
       position: absolute;
-      margin-left: -55px;
-      margin-top:-3px;
-      font: normal normal normal 15px/52px Space Mono;
+      padding-left: 5px;
+      margin-top:-1px;
+      font: normal normal normal 25px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+  
+    .input-Password{
+      width: 300px;
+      height: 64px;
+      margin-top: 20px;
+      padding-left: 30px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 37px;
+      opacity: 1;
+      font: normal normal normal 25px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+  
+    .input-Password::placeholder{
+      position: absolute;
+      left: 15px;
+      padding-left: 15px;
+      margin-top:-1px;
+      font: normal normal normal 25px/52px Space Mono;
       letter-spacing: 0px;
       color: #000000;
       opacity: 1;
@@ -451,22 +590,52 @@
       opacity: 1;
     }
     
-    .modal-content input {
-      width: 290px;
-      height: 50px;
-      margin-top: 20px; 
+    .input-Email{
+      width: 300px;
+      height: 64px;
+      margin-top: 30px;
+      padding-left: 30px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
       border-radius: 37px;
       opacity: 1;
+      font: normal normal normal 20px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
     }
-    
-
-    .modal-content input::placeholder{
+  
+    .input-Email::placeholder{
       position: absolute;
-      margin-left: 20px;
-      margin-top:-3px;
-      font: normal normal normal 15px/52px Space Mono;
+      padding-left: 5px;
+      margin-top:-1px;
+      font: normal normal normal 20px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+  
+    .input-Password{
+      width: 300px;
+      height: 64px;
+      margin-top: 20px;
+      padding-left: 30px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 37px;
+      opacity: 1;
+      font: normal normal normal 20px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+  
+    .input-Password::placeholder{
+      position: absolute;
+      left: 15px;
+      padding-left: 15px;
+      margin-top:-1px;
+      font: normal normal normal 20px/52px Space Mono;
       letter-spacing: 0px;
       color: #000000;
       opacity: 1;
@@ -562,6 +731,58 @@
     color: #FFFFFF;
     opacity: 1;
   }
+
+  .input-Email{
+    width: 260px;
+    height: 64px;
+    margin-top: 30px;
+    padding-left: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 37px;
+    opacity: 1;
+    font: normal normal normal 20px/52px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .input-Email::placeholder{
+    position: absolute;
+    padding-left: 5px;
+    margin-top:-1px;
+    font: normal normal normal 18px/52px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .input-Password{
+    width: 260px;
+    height: 64px;
+    margin-top: 20px;
+    padding-left: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 37px;
+    opacity: 1;
+    font: normal normal normal 18px/52px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .input-Password::placeholder{
+    position: absolute;
+    left: 15px;
+    padding-left: 15px;
+    margin-top:-1px;
+    font: normal normal normal 20px/52px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
   }
 @media screen and (max-width: 280px) {
     .modal-overlay {
@@ -587,22 +808,52 @@
       opacity: 1;
     }
     
-    .modal-content input {
-      width: 200px;
-      height: 40px;
-      margin-top: 20px; 
+    .input-Email{
+      width: 220px;
+      height: 64px;
+      margin-top: 30px;
+      padding-left: 30px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
       border-radius: 37px;
       opacity: 1;
+      font: normal normal normal 15px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
     }
-    
-
-    .modal-content input::placeholder{
+  
+    .input-Email::placeholder{
       position: absolute;
-      margin-left: 20px;
-      margin-top:-3px;
-      font: normal normal normal 12px/52px Space Mono;
+      padding-left: 5px;
+      margin-top:-1px;
+      font: normal normal normal 15px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+  
+    .input-Password{
+      width: 220px;
+      height: 64px;
+      margin-top: 20px;
+      padding-left: 30px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #707070;
+      border-radius: 37px;
+      opacity: 1;
+      font: normal normal normal 15px/52px Space Mono;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+    }
+  
+    .input-Password::placeholder{
+      position: absolute;
+      left: 15px;
+      padding-left: 15px;
+      margin-top:-1px;
+      font: normal normal normal 15px/52px Space Mono;
       letter-spacing: 0px;
       color: #000000;
       opacity: 1;
