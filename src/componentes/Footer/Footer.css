@@ -1,5 +1,5 @@
 .container-footer {
-  position: absolute;
+ 
   top: 2373px;
   left: 0;
   width: 100%;
@@ -140,6 +140,7 @@
 
 @media screen and (max-width: 430px){
   .container-footer {
+    top: 15px;
     height: 270px;
     width: 100%;
     display: flex;

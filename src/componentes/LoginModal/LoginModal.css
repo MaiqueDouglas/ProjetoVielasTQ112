@@ -138,7 +138,7 @@
   }
   
   .checkbox-container {
-    margin-top: 10px;
+    margin-top: -5px;
     display: flex;
     align-items: center;
   }
@@ -147,13 +147,14 @@
     width: 21px;
     height: 21px;
     margin-left: 150px;
+    margin-top:20px ;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
   }
   
   .checkbox-container label {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 10px;
     text-align: left;
     font: normal normal normal 20px/29px Space Mono;
@@ -246,14 +247,14 @@
       width: 20px;
       height: 20px;
       margin-left: 150px;
-      margin-top: 1px;
+      margin-top: 20px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
       opacity: 1;
     }
     
     .checkbox-container label {
-      margin-top: 1px;
+      margin-top: 20px;
       margin-left: 10px;
       text-align: left;
       font: normal normal normal 18px/29px Space Mono;
@@ -376,14 +377,14 @@
       width: 15px;
       height: 15px;
       margin-left: 150px;
-      margin-top: 1px;
+      margin-top: 10px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
       opacity: 1;
     }
     
     .checkbox-container label {
-      margin-top: 1px;
+      margin-top: 10px;
       margin-left: 10px;
       text-align: left;
       font: normal normal normal 15px/29px Space Mono;
@@ -439,8 +440,8 @@
 
     .modal-content h2 {
       text-align: left;
-      margin-left: 40px;
-      margin-top: -40px;
+      margin-left: 60px;
+      margin-top: -30px;
       margin-bottom: -20px; 
       font: normal normal bold 25px/62px Space Mono;
       letter-spacing: 0px;
@@ -451,7 +452,7 @@
     .input-Email{
       width: 300px;
       height: 64px;
-      margin-top: 30px;
+      margin-top: 20px;
       padding-left: 30px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
@@ -501,15 +502,15 @@
     .checkbox-container input[type="checkbox"] {
       width: 12px;
       height: 12px;
-      margin-left: 40px;
-      margin-top: -10px;
+      margin-left: 80px;
+      margin-top: 10px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
       opacity: 1;
     }
     
     .checkbox-container label {
-      margin-top: -10px;
+      margin-top: 10px;
       margin-left: 5px;
       text-align: left;
       font: normal normal normal 12px/29px Space Mono;
@@ -593,7 +594,7 @@
     .input-Email{
       width: 300px;
       height: 64px;
-      margin-top: 30px;
+      margin-top: 20px;
       padding-left: 30px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
@@ -643,8 +644,8 @@
     .checkbox-container input[type="checkbox"] {
       width: 12px;
       height: 12px;
-      margin-left: 40px;
-      margin-top: -10px;
+      margin-left: 70px;
+      margin-top: 10px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
       opacity: 1;
@@ -652,7 +653,7 @@
     
     .checkbox-container label {
       margin: 0 auto;
-      margin-top: -10px;
+      margin-top: 10px;
       margin-left: 5px;
       text-align: left;
       font: normal normal normal 12px/29px Space Mono;
@@ -735,7 +736,7 @@
   .input-Email{
     width: 260px;
     height: 64px;
-    margin-top: 30px;
+    margin-top: 20px;
     padding-left: 30px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
@@ -811,7 +812,7 @@
     .input-Email{
       width: 220px;
       height: 64px;
-      margin-top: 30px;
+      margin-top: 15px;
       padding-left: 30px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
@@ -862,7 +863,7 @@
       width: 12px;
       height: 12px;
       margin-left: 40px;
-      margin-top: -10px;
+      margin-top: 10px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
       opacity: 1;
@@ -870,7 +871,7 @@
     
     .checkbox-container label {
       margin: 0 auto;
-      margin-top: -10px;
+      margin-top: 10px;
       margin-left: 5px;
       text-align: left;
       font: normal normal normal 12px/29px Space Mono;

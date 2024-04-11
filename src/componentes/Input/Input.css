@@ -1,10 +1,11 @@
 .input-container {
     position: absolute;
     left: 50%; 
+    margin-left: 40px;
     transform: translateX(-50%); 
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 60px;
     
   }
 
@@ -403,7 +404,7 @@
     }
   
     .input-search {
-      width: 330px;
+      width: 300px;
       height: 35px;
       background: #FFFFFF 0% 0% no-repeat padding-box;
       font: normal normal normal 15px/45px Space Mono;
@@ -522,7 +523,7 @@
     
   }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 280px){
     .input-container {
       position: absolute;
       left: 50%; 
