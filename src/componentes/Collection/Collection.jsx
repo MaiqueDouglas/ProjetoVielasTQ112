@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Collection.css';
 import Foto1 from "../../assets/Collection1.jpg";
 import Foto2 from "../../assets/Collection2.jpg";
@@ -13,45 +14,62 @@ import Foto9 from "../../assets/Collection9.jpg";
 function Collection() {
     return (
         <div className='container-photos'>
+            <div className="photo">
                 <h1>COLEÇÔES</h1>
-                <div className="photo">
+                <Link to="/Collection/1">
                     <img src={Foto1} alt="Photo 1" />
-                    <h3>Título</h3>
-                    <p>Descrição da foto.</p>
-                </div>
-                <div className="photo">
+                </Link>
+                <h3>Título</h3>
+                <p>Descrição da foto.</p>
+            </div>
+            <div className="photo">
+                <Link to="/Collection/2">
                     <img src={Foto2} alt="Photo 2" />
-                    <h3>Título</h3>
-                    <p>Descrição da foto.</p>
-                </div>
-                <div className="photo">
+                </Link>
+                <h3>Título</h3>
+                <p>Descrição da foto.</p>
+            </div>
+            <div className="photo">
+                <Link to="/Collection/3">
                     <img src={Foto3} alt="Photo 3" />
-                    <h3>Título</h3>
-                    <p>Descrição da foto.</p>
+                </Link>
+                <h3>Título</h3>
+                <p>Descrição da foto.</p>
+            </div>
+            <hr className='vertical-line' />
+            <div className='photo-container'>
+                <div className="photo-">
+                    <Link to="/Collection/4">
+                        <img src={Foto4} alt="Photo 4" />
+                    </Link>
                 </div>
-                <hr className='vertical-line' />
-                <div className='photo-container'>
-                    <div className="photo">
-                        <img src={Foto4} alt="Photo 4" />    
-                    </div>
-                    <div className="photo">
-                        <img src={Foto5} alt="Photo 5" />  
-                    </div>
-                    <div className="photo">
+                <div className="photo-">
+                    <Link to="/Collection/5">
+                        <img src={Foto5} alt="Photo 5" />
+                    </Link>
+                </div>
+                <div className="photo-">
+                    <Link to="/Collection/6">
                         <img src={Foto6} alt="Photo 6" />
-                    </div>
-                    <div className="photo">
-                        <img src={Foto7} alt="Photo 7" />    
-                    </div>
-                    <div className="photo">
-                        <img src={Foto8} alt="Photo 8" />  
-                    </div>
-                    <div className="photo">
-                        <img src={Foto9} alt="Photo 9" />
-                    </div>
+                    </Link>
                 </div>
+                <div className="photo-">
+                    <Link to="/Collection/7">
+                        <img src={Foto7} alt="Photo 7" />
+                    </Link>
+                </div>
+                <div className="photo-">
+                    <Link to="/Collection/8">
+                        <img src={Foto8} alt="Photo 8" />
+                    </Link>
+                </div>
+                <div className="photo-">
+                    <Link to="/Collection/9">
+                        <img src={Foto9} alt="Photo 9" />
+                    </Link>
+                </div>
+            </div>
         </div>
-        
     );
 }
 

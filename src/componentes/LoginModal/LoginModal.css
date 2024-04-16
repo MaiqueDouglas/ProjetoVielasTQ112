@@ -4,7 +4,7 @@
 .modal-overlay {
   position: fixed;
   top: 120px;
-  left: 554px;
+  left: 900px;
   width: 812px;
   height: 706px;
   background: var(---4761b4) 0% 0% no-repeat padding-box;
@@ -162,6 +162,38 @@
     color: #000000;
     opacity: 1;
   }
+
+@media screen and (max-width: 1920px){
+  .modal-overlay {
+    position: fixed;
+    top: 120px;
+    left: 554px;
+    width: 812px;
+    height: 706px;
+    background: var(---4761b4) 0% 0% no-repeat padding-box;
+    background: #4761B4 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    text-align: center;
+    z-index: 1000; 
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .modal-overlay {
+    position: fixed;
+    top: 120px;
+    left: 330px;
+    width: 812px;
+    height: 706px;
+    background: var(---4761b4) 0% 0% no-repeat padding-box;
+    background: #4761B4 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    text-align: center;
+    z-index: 1000; 
+  }
+}
 
 @media screen and (max-width: 1280px) {
     .modal-overlay {

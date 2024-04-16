@@ -2,7 +2,7 @@ import Header from "../../Header/Header";
 import Input from "../../Input/Input";
 import Banner from "../../Banner/Banner"
 import Footer from "../../Footer/Footer";
-import Atalho from "../../Atalho/Atalho";
+import LinkShortcut from "../../LinkShortcut/LinkShortcut";
 import Collection from "../../Collection/Collection";
 
 
@@ -14,10 +14,11 @@ function home() {
     <div>
     <Header/>
     <Input/>
-    <Atalho/>
+    <LinkShortcut/>
     <Banner/>
     <Collection/>
     <Footer/>
+    
     </div>
   );
 }

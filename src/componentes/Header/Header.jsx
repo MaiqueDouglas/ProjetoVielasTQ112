@@ -27,6 +27,7 @@ function Header() {
     <div>
       
       <div className={`container ${isMenuOpen ? 'open' : ''}`}>
+        <div className='container-component'>
         <div className="menu-icon" onClick={toggleMenu}>
           <div className="linha"></div>
           <div className="linha"></div>
@@ -50,6 +51,7 @@ function Header() {
           </ul>
         </div>
         {isModalOpen && <LoginModal onClose={closeModal} />}
+      </div>
       </div>
     </div>
   );

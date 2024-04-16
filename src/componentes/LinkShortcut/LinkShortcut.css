@@ -1,0 +1,310 @@
+.container-shortcut {
+  position: relative;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 70px; 
+}
+
+.shortcut {
+  width: 1640px;
+  height: 45px;
+  border: 2px solid white; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.shortcut a {
+  text-decoration: underline;
+  font: italic normal normal 30px/45px Space Mono;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+@media screen and (max-width:1440px) {
+  .container-shortcut {
+    position: relative;
+    top: 160px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px; 
+  }
+  
+  .shortcut {
+    width: 1226px;
+    height: 45px;
+    border: 2px solid white;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  
+  .shortcut a {
+    text-decoration: underline;
+    font: italic normal normal 30px/45px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+}
+
+@media screen and (max-width:1024px) {
+  .container-shortcut {
+    position: relative;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px; 
+  }
+  
+  .shortcut {
+    width: 755px;
+    height: 45px;
+    border: 2px solid white;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  
+  .shortcut a {
+    text-decoration: underline;
+    font: italic normal normal 18px/45px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+}
+
+@media screen and (max-width:540px) {
+  .container-shortcut {
+    position: relative;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px; 
+  }
+  
+  .shortcut {
+    width: 400px;
+    height: 45px;
+    border: 2px solid white;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  
+  .shortcut a {
+    text-decoration: underline;
+    font: italic normal normal 10px/55px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+}
+
+@media screen and (max-width:430px) {
+  .container-shortcut {
+    position: relative;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 15px; 
+  }
+  
+  .shortcut {
+    width: 450px;
+    height: 45px;
+    border: 2px solid white;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  
+  .shortcut a {
+    text-decoration: underline;
+    font: italic normal normal 10px/55px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+}
+
+@media screen and (max-width:390px) {
+  .container-shortcut {
+    position: relative;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px; 
+  }
+  
+  .shortcut {
+    width: 240px;
+    height: 45px;
+    border: 2px solid white;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  
+  .shortcut a {
+    text-decoration: underline;
+    font: italic normal normal 5px/55px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+}
+
+@media screen and (max-width:375px) {
+  .container-shortcut {
+    position: relative;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px; 
+  }
+  
+  .shortcut {
+    width: 240px;
+    height: 45px;
+    border: 2px solid white;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  
+  .shortcut a {
+    text-decoration: underline;
+    font: italic normal normal 5px/55px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+}
+
+@media screen and (max-width:360px) {
+  .container-shortcut {
+    position: relative;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px; 
+  }
+  
+  .shortcut {
+    width: 240px;
+    height: 45px;
+    border: 2px solid white;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  
+  .shortcut a {
+    text-decoration: underline;
+    font: italic normal normal 5px/55px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+}
+
+@media screen and (max-width:320px) {
+  .container-shortcut {
+    position: relative;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px; 
+  }
+  
+  .shortcut {
+    width: 240px;
+    height: 45px;
+    border: 2px solid white;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  
+  .shortcut a {
+    text-decoration: underline;
+    font: italic normal normal 5px/55px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+}
+
+@media screen and (max-width:280px) {
+  .container-shortcut {
+    position: relative;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1px; 
+  }
+  
+  .shortcut {
+    width: 240px;
+    height: 45px;
+    border: 2px solid white;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  
+  .shortcut a {
+    text-decoration: underline;
+    font: italic normal normal 5px/55px Space Mono;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+}
+
+
+

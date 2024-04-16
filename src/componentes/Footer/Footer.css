@@ -78,38 +78,6 @@
 
 }
 
-@media screen and (max-width: 912px){
-  .container-footer h1 {
-    margin-left: 100px;
-    margin-right: 180px;
-  }
-
-  .footer-links {
-    left: -380px;
-  }
-
-}
-
-@media screen and (max-width: 912px){
-  .container-footer h1 {
-    margin-left: 110px;
-    margin-right: 150px;
-    font-size: 40px;
-  }
-
-  .footer-links a{
-    left: 70px;
-    font-size: 20px;
-  }
-
-  .container-footer img {
-    margin-top: 50px;
-    height:40px;
-    width: 30px;
-  }
-
-}
-
 @media screen and (max-width: 540px){
   .container-footer{
     height: 210px;

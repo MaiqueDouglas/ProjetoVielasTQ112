@@ -5,6 +5,7 @@ import QuemSomos from "../Pages/Quem Somos/QuemSomos";
 import Equipe from "../Pages/Equipe/Equipe";
 import Apoie from "../Pages/Apoie/Apoie";
 import FaleConosco from "../Pages/Fale Conosco/FaleConosco";
+import CollectionPhoto from "../CollectionPhoto/CollectionPhoto";
 
 function AppRoutes() {
   return (
@@ -16,6 +17,7 @@ function AppRoutes() {
         <Route path="/Equipe" element={<Equipe />} />
         <Route path="/Apoie" element={<Apoie />} />
         <Route path="/FaleConosco" element={<FaleConosco />} />
+        <Route path="/Collection/:id" element={<CollectionPhoto />} />
       </Routes>
     
   );

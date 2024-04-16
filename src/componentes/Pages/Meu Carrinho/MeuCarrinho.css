@@ -19,16 +19,17 @@
 
 .container-car {
     position: relative;
-    width: 1500px;
-    height: 400px; 
+    width: 1640px;
+    height: 400px;
     margin-top: 40px;
-    margin-left: 120px;
-    margin-bottom: 240px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    margin-bottom: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
     border: 1px solid #707070;
     opacity: 1;
-    
 }
+
 
 .container-car img{
     width: 508px;
@@ -125,19 +126,87 @@
 
 }
 
-@media screen and (max-width: 1280px){
+
+
+
+@media screen and (max-width: 1440px){
     .h1{
         margin-top: 50px;
-        margin-left: 50px;
+        margin-left: 130px;
        
     }
     
     .container-car {
         position: relative;
-        width: 1200px;
+        width: 1180px;
         height: 400px; 
         margin-top: 40px;
-        margin-left: 50px;
+        margin-left: 130px;
+        
+    
+    }
+    
+    .container-car img{
+        width: 408px;
+        height: 230px;
+        margin-top: 20px;
+        margin-left: 20px;
+       
+    }
+    
+    .container-car h2{
+        margin-top: -240px;
+        margin-left:440px ;
+        font: normal normal normal 18px/29px Space Mono;
+        
+    
+    }
+    
+    .container-car p{
+        margin-top: -173px;
+        margin-left:700px ;
+        font: normal normal normal 18px/29px Space Mono;
+       
+    
+    }
+    
+    .container-car input[type="checkbox"] {
+        left: 700px; 
+     
+    }
+    
+    .container-car label {
+        left: 720px; 
+        font: normal normal normal 18px/29px Space Mono;
+    
+    }
+    
+    .container-car h1{
+        margin-left: 700px;
+        font: normal normal normal 18px/29px Space Mono;
+    
+    }
+    
+    .container-car button{
+       margin-left: 700px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 1280px){
+    .h1{
+        margin-top: 50px;
+        margin-left: 40px;
+       
+    }
+    
+    .container-car {
+        position: relative;
+        width: 1180px;
+        height: 400px; 
+        margin-top: 40px;
+        margin-left: 40px;
         
     
     }
@@ -193,27 +262,27 @@
 @media screen and (max-width: 1024px){
     .h1{
         margin-top: 30px;
-        margin-left: 10px;
-        font: normal normal bold 28px/59px Space Mono;
+        margin-left: 85px;
+        font: normal normal bold 20px/59px Space Mono;
       
     }
     
     .h1 p{
-        font: normal normal normal 18px/29px Space Mono;
+        font: normal normal normal 15px/29px Space Mono;
     
     }
     
     .container-car {
-        width: 990px;
+        width: 880px;
         height: 350px; 
         margin-top: 40px;
-        margin-left: 10px;
+        margin-left: 85px;
        
     }
     
     .container-car img{
-        width: 440px;
-        height: 260px;
+        width: 400px;
+        height: 267px;
         margin-top: 10px;
         margin-left: 10px;
         
@@ -221,7 +290,7 @@
     
     .container-car h2{
         margin-top: -270px;
-        margin-left:465px ;
+        margin-left:420px ;
         font: normal normal normal 12px/29px Space Mono;
         
     
@@ -229,14 +298,14 @@
     
     .container-car p{
         margin-top: -173px;
-        margin-left:650px ;
+        margin-left:580px ;
         font: normal normal normal 12px/29px Space Mono;
        
     }
     
     .container-car input[type="checkbox"] {
         top: 300px; 
-        left: 650px; 
+        left: 580px; 
         width: 13px;
         height: 13px;
        
@@ -244,14 +313,14 @@
     
     .container-car label {
         top: 292px;  
-        left: 670px; 
+        left: 600px; 
         font: normal normal normal 12px/29px Space Mono;
     
     }
     
     .container-car h1{
         margin-top: 140px;
-        margin-left: 650px;
+        margin-left: 580px;
         font: normal normal normal 15px/29px Space Mono;
         
     }
@@ -260,7 +329,7 @@
         width: 300px;
         height: 61px;
         margin-top: 30px;
-        margin-left: 650px;
+        margin-left: 580px;
         text-align: center;
     
     }
@@ -275,35 +344,36 @@
 @media screen and (max-width: 912px){
     .h1{
         margin-top: 30px;
-        margin-left: 10px;
-        font: normal normal bold 25px/59px Space Mono;
+        margin-left: 40px;
+        font: normal normal bold 20px/59px Space Mono;
       
     }
     
     .h1 p{
         margin-top: 10px;
-        font: normal normal normal 18px/29px Space Mono;
+        font: normal normal normal 15px/29px Space Mono;
         
     }
     
     .container-car {
-        width: 895px;
+        width: 830px;
         height: 300px; 
         margin-top: 30px;
-        margin-left: 10px;
+        margin-left: 40px;
+        
        
     }
     
     .container-car img{
         width: 320px;
-        height: 175px;
+        height: 213px;
         margin-top: 10px;
         margin-left: 10px;
         
     }
     
     .container-car h2{
-        margin-top: -185px;
+        margin-top: -220px;
         margin-left:340px ;
         font: normal normal normal 12px/29px Space Mono;
         
@@ -345,6 +415,7 @@
         margin-top: 20px;
         margin-left: 520px;
         text-align: center;
+        gap: 20px;
     
     }
     
@@ -358,36 +429,36 @@
 @media screen and (max-width: 853px){
     .h1{
         margin-top: 30px;
-        margin-left: 10px;
-        font: normal normal bold 25px/59px Space Mono;
+        margin-left: 50px;
+        font: normal normal bold 20px/59px Space Mono;
       
     }
     
     .h1 p{
         margin-top: 10px;
-        font: normal normal normal 18px/29px Space Mono;
+        font: normal normal normal 15px/29px Space Mono;
         
     }
     
     .container-car {
-        width: 820px;
+        width: 740px;
         height: 300px; 
         margin-top: 30px;
-        margin-left: 10px;
+        margin-left: 50px;
        
     }
     
     .container-car img{
-        width: 320px;
-        height: 175px;
+        width: 240px;
+        height: 160px;
         margin-top: 10px;
         margin-left: 10px;
         
     }
     
     .container-car h2{
-        margin-top: -185px;
-        margin-left:340px ;
+        margin-top: -170px;
+        margin-left:260px ;
         font: normal normal normal 12px/29px Space Mono;
         
     
@@ -395,14 +466,14 @@
     
     .container-car p{
         margin-top: -175px;
-        margin-left:520px ;
+        margin-left:420px ;
         font: normal normal normal 12px/29px Space Mono;
        
     }
     
     .container-car input[type="checkbox"] {
         top: 260px; 
-        left: 520px; 
+        left: 420px; 
         width: 13px;
         height: 13px;
        
@@ -410,14 +481,14 @@
     
     .container-car label {
         top: 252px;  
-        left: 540px; 
+        left: 440px; 
         font: normal normal normal 12px/29px Space Mono;
     
     }
     
     .container-car h1{
         margin-top: 90px;
-        margin-left: 520px;
+        margin-left: 420px;
         font: normal normal normal 15px/29px Space Mono;
         
     }
@@ -426,7 +497,7 @@
         width: 300px;
         height: 61px;
         margin-top: 20px;
-        margin-left: 520px;
+        margin-left: 420px;
         text-align: center;
     
     }
@@ -441,27 +512,27 @@
 @media screen and (max-width: 820px){
     .h1{
         margin-top: 30px;
-        margin-left: 10px;
-        font: normal normal bold 25px/59px Space Mono;
+        margin-left: 30px;
+        font: normal normal bold 20px/59px Space Mono;
       
     }
     
     .h1 p{
         margin-top: 10px;
-        font: normal normal normal 18px/29px Space Mono;
+        font: normal normal normal 15px/29px Space Mono;
         
     }
     
     .container-car {
-        width: 790px;
+        width: 750px;
         height: 300px; 
         margin-top: 30px;
-        margin-left: 10px;
+        margin-left: 30px;
        
     }
     
     .container-car img{
-        width: 300px;
+        width: 240px;
         height: 160px;
         margin-top: 10px;
         margin-left: 10px;
@@ -470,7 +541,7 @@
     
     .container-car h2{
         margin-top: -170px;
-        margin-left:320px ;
+        margin-left:260px ;
         font: normal normal normal 12px/29px Space Mono;
         
     
@@ -478,14 +549,14 @@
     
     .container-car p{
         margin-top: -175px;
-        margin-left:490px ;
+        margin-left:440px ;
         font: normal normal normal 12px/29px Space Mono;
        
     }
     
     .container-car input[type="checkbox"] {
         top: 260px; 
-        left: 490px; 
+        left: 440px; 
         width: 13px;
         height: 13px;
        
@@ -493,14 +564,14 @@
     
     .container-car label {
         top: 252px;  
-        left: 510px; 
+        left: 460px; 
         font: normal normal normal 12px/29px Space Mono;
     
     }
     
     .container-car h1{
         margin-top: 90px;
-        margin-left: 490px;
+        margin-left: 440px;
         font: normal normal normal 15px/29px Space Mono;
         
     }
@@ -509,7 +580,7 @@
         width: 300px;
         height: 61px;
         margin-top: 20px;
-        margin-left: 490px;
+        margin-left: 440px;
         text-align: center;
     
     }
@@ -524,27 +595,27 @@
 @media screen and (max-width: 768px){
     .h1{
         margin-top: 20px;
-        margin-left: 10px;
-        font: normal normal bold 20px/59px Space Mono;
+        margin-left: 40px;
+        font: normal normal bold 18px/59px Space Mono;
       
     }
     
     .h1 p{
         margin-top: 1px;
-        font: normal normal normal 18px/29px Space Mono;
+        font: normal normal normal 15px/29px Space Mono;
         
     }
     
     .container-car {
-        width: 755px;
+        width: 700px;
         height: 300px; 
         margin-top: 20px;
-        margin-left: 5px;
+        margin-left: 40px;
        
     }
     
     .container-car img{
-        width: 300px;
+        width: 240px;
         height: 160px;
         margin-top: 5px;
         margin-left: 5px;
@@ -553,7 +624,7 @@
     
     .container-car h2{
         margin-top: -170px;
-        margin-left:310px ;
+        margin-left:250px ;
         font: normal normal normal 12px/29px Space Mono;
         
     
@@ -561,14 +632,14 @@
     
     .container-car p{
         margin-top: -175px;
-        margin-left:470px ;
+        margin-left:405px ;
         font: normal normal normal 12px/29px Space Mono;
        
     }
     
     .container-car input[type="checkbox"] {
         top: 260px; 
-        left: 470px; 
+        left: 405px; 
         width: 13px;
         height: 13px;
        
@@ -576,14 +647,14 @@
     
     .container-car label {
         top: 252px;  
-        left: 490px; 
+        left: 425px; 
         font: normal normal normal 12px/29px Space Mono;
     
     }
     
     .container-car h1{
         margin-top: 90px;
-        margin-left: 470px;
+        margin-left: 405px;
         font: normal normal normal 15px/29px Space Mono;
         
     }
@@ -592,7 +663,7 @@
         width: 270px;
         height: 41px;
         margin-top: 20px;
-        margin-left: 470px;
+        margin-left: 405px;
         text-align: center;
     
     }
@@ -1180,6 +1251,89 @@
     
     .button{
        font: normal normal bold 12px/41px Space Mono;
+    
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+    .h1{
+        margin-top: 1px;
+        margin-left: 10px;
+        font: normal normal bold 10px/59px Space Mono;
+      
+    }
+    
+    .h1 p{
+        margin-top: -15px;
+        font: normal normal normal 10px/29px Space Mono;
+        
+    }
+    
+    .container-car {
+        width: 270px;
+        height: 440px; 
+        margin-top: 5px;
+        margin-left: 25px;
+       
+    }
+    
+    .container-car img{
+        width: 260px;
+        height: 150px;
+        margin-top: 5px;
+        margin-left: 4px;
+        
+    }
+    
+    .container-car h2{
+        margin-top: 1px;
+        margin-left:5px ;
+        font: normal normal normal 7px/29px Space Mono;
+        
+    
+    }
+    
+    .container-car p{
+        margin-top: -175px;
+        margin-left:95px ;
+        font: normal normal normal 7px/29px Space Mono;
+       
+    }
+    
+    .container-car input[type="checkbox"] {
+        top: 410px; 
+        left: 95px; 
+        width: 10px;
+        height: 10px;
+       
+    }
+    
+    .container-car label {
+        top: 400px;  
+        left: 110px; 
+        font: normal normal normal 10px/29px Space Mono;
+    
+    }
+    
+    .container-car h1{
+        margin-top: 60px;
+        margin-left: 95px;
+        font: normal normal normal 10px/29px Space Mono;
+        
+    }
+    
+    .container-car button{
+        width: 150px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 95px;
+        text-align: center;
+    
+    }
+    
+    .button{
+       font: normal normal bold 10px/41px Space Mono;
     
     }
     
