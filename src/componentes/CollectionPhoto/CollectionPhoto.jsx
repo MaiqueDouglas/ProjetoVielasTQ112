@@ -45,6 +45,7 @@ function CollectionPhoto() {
     const [selectedPhoto, setSelectedPhoto] = useState(photos.find(photo => photo.id === parseInt(id)));
 
     const handleClick = (id) => {
+        window.scrollTo(0, 0);
         setSelectedPhoto(photos.find(photo => photo.id === id));
     };
 

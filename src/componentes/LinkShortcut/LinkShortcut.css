@@ -92,7 +92,7 @@
 @media screen and (max-width:540px) {
   .container-shortcut {
     position: relative;
-    top: 80px;
+    top: 65px;
     left: 0;
     width: 100%;
     display: flex;
@@ -160,13 +160,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 50px; 
+    padding: 0 10px; 
   }
   
   .shortcut {
-    width: 240px;
+    width: 320px;
     height: 45px;
-    border: 2px solid white;
+    border: 1px solid white;
     justify-content: space-around;
     align-items: center;
   
@@ -174,7 +174,7 @@
   
   .shortcut a {
     text-decoration: underline;
-    font: italic normal normal 5px/55px Space Mono;
+    font: italic normal normal 8px/55px Space Mono;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -185,19 +185,19 @@
 @media screen and (max-width:375px) {
   .container-shortcut {
     position: relative;
-    top: 60px;
+    top: 50px;
     left: 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 50px; 
+    padding: 0 10px; 
   }
   
   .shortcut {
-    width: 240px;
-    height: 45px;
-    border: 2px solid white;
+    width: 320px;
+    height: 35px;
+    border: 1px solid white;
     justify-content: space-around;
     align-items: center;
   
@@ -205,7 +205,7 @@
   
   .shortcut a {
     text-decoration: underline;
-    font: italic normal normal 5px/55px Space Mono;
+    font: italic normal normal 8px/55px Space Mono;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -216,19 +216,19 @@
 @media screen and (max-width:360px) {
   .container-shortcut {
     position: relative;
-    top: 60px;
+    top: 55px;
     left: 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 50px; 
+    padding: 0 10px; 
   }
   
   .shortcut {
-    width: 240px;
-    height: 45px;
-    border: 2px solid white;
+    width: 320px;
+    height: 35px;
+    border: 1px solid white;
     justify-content: space-around;
     align-items: center;
   
@@ -236,7 +236,7 @@
   
   .shortcut a {
     text-decoration: underline;
-    font: italic normal normal 5px/55px Space Mono;
+    font: italic normal normal 8px/55px Space Mono;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -247,19 +247,19 @@
 @media screen and (max-width:320px) {
   .container-shortcut {
     position: relative;
-    top: 60px;
+    top: 55px;
     left: 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 50px; 
+    padding: 0 10px; 
   }
   
   .shortcut {
-    width: 240px;
-    height: 45px;
-    border: 2px solid white;
+    width: 320px;
+    height: 35px;
+    border: 1px solid white;
     justify-content: space-around;
     align-items: center;
   
@@ -267,7 +267,7 @@
   
   .shortcut a {
     text-decoration: underline;
-    font: italic normal normal 5px/55px Space Mono;
+    font: italic normal normal 8px/55px Space Mono;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -278,7 +278,7 @@
 @media screen and (max-width:280px) {
   .container-shortcut {
     position: relative;
-    top: 60px;
+    top: 55px;
     left: 0;
     width: 100%;
     display: flex;

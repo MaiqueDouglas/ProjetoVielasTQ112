@@ -68,22 +68,26 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    justify-content: flex-start;
     
    
 }
 
 .photo- {
-    margin: 8px;
-      
+    position: relative;
+    margin: 13.9px;
+    justify-self: start;
 }
 
 .photo- img {
     width: 536px;
     height: 257px;
+    margin-top: -13px;
+    margin-left: -13px;
     
 }
 
@@ -105,7 +109,7 @@
     
     .photo {
         display: inline-block;
-        margin: 8px;
+        margin: 6px;
         text-align: left;
         
     }
@@ -166,13 +170,15 @@
     
     .photo- {
         display: inline-block;
-        margin: 8px;
+        margin: 12px;
         text-align: left;
     }
     
     .photo- img {
         width: 400px;
         height: 267px;
+        margin-top: -11.9px;
+        margin-left: -11.9px;
         
     }
 
@@ -242,7 +248,7 @@
         position: relative;
         margin-bottom: 50px;
         margin-top: 50px;
-        width: 780px;
+        width: 755px;
         height: 380px;
         margin-left: auto;
         margin-right: auto;
@@ -256,14 +262,16 @@
     }
     
     .photo- {
-        display: inline-block;
-        margin: 8px;
-        text-align: left;
+        position: relative;
+        margin: 15.5px;
+        justify-self: start;
     }
     
     .photo- img {
         width: 240px;
         height: 160px;
+        margin-top: -14.8px;
+        margin-left: -14.8px;
         
     }
 
@@ -272,23 +280,27 @@
 @media screen and (max-width:540px) {
     .container-photos h1{
         text-align: left;
-        margin-bottom: 10px;
-        font: normal normal bold 20px/59px Space Mono;
+        margin-bottom: -15px;
+        font: normal normal bold 18px/59px Space Mono;
         letter-spacing: 0px;
         color: #000000;
         opacity: 1;
     }
     
     .container-photos {
+        position: relative;
         text-align: center;
         margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        
        
     
     }
     
     .photo {
         display: inline-block;
-        margin: 8px;
+        margin: 10px;
         text-align: left;
         
     }
@@ -296,6 +308,7 @@
     .photo img {
         width: 100px;
         height: 67px;
+        margin-left: 4px;
         
     }
     
@@ -310,7 +323,7 @@
     
     .container-photos p{
         text-align: left;
-        font: normal normal normal 12px/21px Space Mono;
+        font: normal normal normal 10px/21px Space Mono;
         letter-spacing: 0px;
         color: #000000;
         opacity: 1;
@@ -320,9 +333,9 @@
     .vertical-line {
         position: relative;
         text-align: center;
-        width: 410px;
-        margin-top: 40px; 
-        border: 3px solid #4761B4;
+        width: 400px;
+        margin-top: 30px; 
+        border: 2px solid #4761B4;
         opacity: 1;
         margin-left: auto;
         margin-right: auto;
@@ -333,7 +346,7 @@
     
     .photo-container {
         position: relative;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         margin-top: 40px;
         width: 400px;
         height: 200px;
@@ -350,13 +363,16 @@
     
     .photo- {
         display: inline-block;
-        margin: 8px;
+        margin: 10px;
         text-align: left;
+        
     }
     
     .photo- img {
         width: 100px;
         height: 67px;
+        margin-top: -10px;
+        margin-left: 7px;
         
     }
 
@@ -458,7 +474,7 @@
 @media screen and (max-width:390px) {
     .container-photos h1{
         text-align: left;
-        margin-bottom: 10px;
+        margin-bottom: 1px;
         font: normal normal bold 20px/59px Space Mono;
         letter-spacing: 0px;
         color: #000000;
@@ -467,14 +483,16 @@
     
     .container-photos {
         text-align: center;
-        margin-top: 60px;
+        width: 320px;
+        margin-top: 60px; 
+        
        
     
     }
     
     .photo {
         display: inline-block;
-        margin: 8px;
+        margin: 5px;
         text-align: left;
         
     }
@@ -482,382 +500,7 @@
     .photo img {
         width: 100px;
         height: 67px;
-        
-    }
-    
-    .container-photos h3{
-        text-align: left;
-        font: normal normal bold 15px/33px Space Mono;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    
-    }
-    
-    .container-photos p{
-        text-align: left;
-        font: normal normal normal 12px/21px Space Mono;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    
-    }
-    
-    .vertical-line {
-        position: relative;
-        text-align: center;
-        width: 220px;
-        margin-top: 40px; 
-        border: 3px solid #4761B4;
-        opacity: 1;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-    
-    
-    
-    .photo-container {
-        position: relative;
-        margin-bottom: 40px;
-        margin-top: 40px;
-        width: 200px;
-        height: 260px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        border: 1px solid white;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        
-       
-    }
-    
-    .photo- {
-        display: inline-block;
-        margin: 8px;
-        text-align: left;
-
-    }
-    
-    .photo- img {
-        width: 100px;
-        height: 67px;
-        
-    }
-
-}
-
-@media screen and (max-width:375px) {
-    .container-photos h1{
-        text-align: left;
-        margin-bottom: 10px;
-        font: normal normal bold 20px/59px Space Mono;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    }
-    
-    .container-photos {
-        text-align: center;
-        margin-top: 60px;
-       
-    
-    }
-    
-    .photo {
-        display: inline-block;
-        margin: 8px;
-        text-align: left;
-        
-    }
-    
-    .photo img {
-        width: 100px;
-        height: 67px;
-        
-    }
-    
-    .container-photos h3{
-        text-align: left;
-        font: normal normal bold 15px/33px Space Mono;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    
-    }
-    
-    .container-photos p{
-        text-align: left;
-        font: normal normal normal 12px/21px Space Mono;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    
-    }
-    
-    .vertical-line {
-        position: relative;
-        text-align: center;
-        width: 220px;
-        margin-top: 40px; 
-        border: 3px solid #4761B4;
-        opacity: 1;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-    
-    
-    
-    .photo-container {
-        position: relative;
-        margin-bottom: 40px;
-        margin-top: 40px;
-        width: 200px;
-        height: 260px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        border: 1px solid white;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        
-       
-    }
-    
-    .photo- {
-        display: inline-block;
-        margin: 8px;
-        text-align: left;
-
-    }
-    
-    .photo- img {
-        width: 100px;
-        height: 67px;
-        
-    }
-
-}
-
-@media screen and (max-width:360px) {
-    .container-photos h1{
-        text-align: left;
-        margin-bottom: 10px;
-        font: normal normal bold 20px/59px Space Mono;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    }
-    
-    .container-photos {
-        text-align: center;
-        margin-top: 60px;
-       
-    
-    }
-    
-    .photo {
-        display: inline-block;
-        margin: 8px;
-        text-align: left;
-        
-    }
-    
-    .photo img {
-        width: 100px;
-        height: 67px;
-        
-    }
-    
-    .container-photos h3{
-        text-align: left;
-        font: normal normal bold 15px/33px Space Mono;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    
-    }
-    
-    .container-photos p{
-        text-align: left;
-        font: normal normal normal 12px/21px Space Mono;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    
-    }
-    
-    .vertical-line {
-        position: relative;
-        text-align: center;
-        width: 220px;
-        margin-top: 40px; 
-        border: 3px solid #4761B4;
-        opacity: 1;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-    
-    
-    
-    .photo-container {
-        position: relative;
-        margin-bottom: 40px;
-        margin-top: 40px;
-        width: 200px;
-        height: 260px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        border: 1px solid white;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        
-       
-    }
-    
-    .photo- {
-        display: inline-block;
-        margin: 8px;
-        text-align: left;
-
-    }
-    
-    .photo- img {
-        width: 100px;
-        height: 67px;
-        
-    }
-
-}
-
-@media screen and (max-width:320px) {
-    .container-photos h1{
-        text-align: left;
-        margin-bottom: 10px;
-        font: normal normal bold 20px/59px Space Mono;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    }
-    
-    .container-photos {
-        text-align: center;
-        margin-top: 60px;
-       
-    
-    }
-    
-    .photo {
-        display: inline-block;
-        margin: 8px;
-        text-align: left;
-        
-    }
-    
-    .photo img {
-        width: 100px;
-        height: 67px;
-        
-    }
-    
-    .container-photos h3{
-        text-align: left;
-        font: normal normal bold 15px/33px Space Mono;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    
-    }
-    
-    .container-photos p{
-        text-align: left;
-        font: normal normal normal 12px/21px Space Mono;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    
-    }
-    
-    .vertical-line {
-        position: relative;
-        text-align: center;
-        width: 220px;
-        margin-top: 40px; 
-        border: 3px solid #4761B4;
-        opacity: 1;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-    
-    
-    
-    .photo-container {
-        position: relative;
-        margin-bottom: 40px;
-        margin-top: 40px;
-        width: 200px;
-        height: 260px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        border: 1px solid white;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        
-       
-    }
-    
-    .photo- {
-        display: inline-block;
-        margin: 8px;
-        text-align: left;
-
-    }
-    
-    .photo- img {
-        width: 100px;
-        height: 67px;
-        
-    }
-
-}
-
-@media screen and (max-width:280px) {
-    .container-photos h1{
-        text-align: left;
-        margin-bottom: 10px;
-        font: normal normal bold 20px/59px Space Mono;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-    }
-    
-    .container-photos {
-        text-align: center;
-        margin-top: 60px;
-       
-    
-    }
-    
-    .photo {
-        display: inline-block;
-        margin: 8px;
-        text-align: left;
-        
-    }
-    
-    .photo img {
-        width: 100px;
-        height: 67px;
+        margin-top: 1px;
         
     }
     
@@ -882,9 +525,9 @@
     .vertical-line {
         position: relative;
         text-align: center;
-        width: 220px;
+        width: 320px;
         margin-top: 40px; 
-        border: 3px solid #4761B4;
+        border: 2px solid #4761B4;
         opacity: 1;
         margin-left: auto;
         margin-right: auto;
@@ -895,10 +538,316 @@
     
     .photo-container {
         position: relative;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         margin-top: 40px;
-        width: 200px;
-        height: 260px;
+        width: 320px;
+        height: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border: 1px solid white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        
+       
+    }
+    
+    .photo- {
+        display: inline-block;
+        margin: 9.5px;
+        margin-bottom: 10px;
+        text-align: left;
+
+    }
+    
+    .photo- img {
+        position: relative;
+        width: 100px;
+        height: 67px;
+        margin-top:auto;
+        margin-left: -10px;
+
+        
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .container-photos h1{
+        text-align: left;
+        margin-bottom: 1px;
+        font: normal normal bold 20px/59px Space Mono;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+    
+    .container-photos {
+        text-align: center;
+        width: 320px;
+        margin-top: 50px; 
+        
+       
+    
+    }
+    
+    .photo {
+        display: inline-block;
+        margin: 5px;
+        text-align: left;
+        
+    }
+    
+    .photo img {
+        width: 100px;
+        height: 67px;
+        margin-top: 1px;
+        
+    }
+    
+    .container-photos h3{
+        text-align: left;
+        font: normal normal bold 15px/33px Space Mono;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    
+    }
+    
+    .container-photos p{
+        text-align: left;
+        font: normal normal normal 10px/21px Space Mono;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    
+    }
+    
+    .vertical-line {
+        position: relative;
+        text-align: center;
+        width: 320px;
+        margin-top: 40px; 
+        border: 2px solid #4761B4;
+        opacity: 1;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    
+    
+    .photo-container {
+        position: relative;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        width: 320px;
+        height: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border: 1px solid white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        
+       
+    }
+    
+    .photo- {
+        display: inline-block;
+        margin: 9.5px;
+        margin-bottom: 10px;
+        text-align: left;
+
+    }
+    
+    .photo- img {
+        position: relative;
+        width: 100px;
+        height: 67px;
+        margin-top:auto;
+        margin-left: -10px;
+
+        
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    .container-photos h1{
+        text-align: left;
+        margin-bottom: 1px;
+        font: normal normal bold 20px/59px Space Mono;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+    
+    .container-photos {
+        text-align: center;
+        width: 320px;
+        margin-top: 60px; 
+        
+       
+    
+    }
+    
+    .photo {
+        display: inline-block;
+        margin: 5px;
+        text-align: left;
+        
+    }
+    
+    .photo img {
+        width: 100px;
+        height: 67px;
+        margin-top: 1px;
+        
+    }
+    
+    .container-photos h3{
+        text-align: left;
+        font: normal normal bold 15px/33px Space Mono;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    
+    }
+    
+    .container-photos p{
+        text-align: left;
+        font: normal normal normal 10px/21px Space Mono;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    
+    }
+    
+    .vertical-line {
+        position: relative;
+        text-align: center;
+        width: 320px;
+        margin-top: 40px; 
+        border: 2px solid #4761B4;
+        opacity: 1;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    
+    
+    .photo-container {
+        position: relative;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        width: 320px;
+        height: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border: 1px solid white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        
+       
+    }
+    
+    .photo- {
+        display: inline-block;
+        margin: 9.5px;
+        margin-bottom: 10px;
+        text-align: left;
+
+    }
+    
+    .photo- img {
+        position: relative;
+        width: 100px;
+        height: 67px;
+        margin-top:auto;
+        margin-left: -10px;
+
+        
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .container-photos h1{
+        text-align: left;
+        margin-bottom: 1px;
+        font: normal normal bold 20px/59px Space Mono;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+    
+    .container-photos {
+        text-align: center;
+        width: 320px;
+        margin-top: 40px; 
+        
+       
+    
+    }
+    
+    .photo {
+        display: inline-block;
+        margin: 5px;
+        text-align: left;
+        
+    }
+    
+    .photo img {
+        width: 100px;
+        height: 67px;
+        margin-top: 1px;
+        
+    }
+    
+    .container-photos h3{
+        text-align: left;
+        font: normal normal bold 15px/33px Space Mono;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    
+    }
+    
+    .container-photos p{
+        text-align: left;
+        font: normal normal normal 10px/21px Space Mono;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    
+    }
+    
+    .vertical-line {
+        position: relative;
+        text-align: center;
+        width: 240px;
+        margin-top: 40px; 
+        border: 2px solid #4761B4;
+        opacity: 1;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    
+    
+    .photo-container {
+        position: relative;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        width: 220px;
+        height: 270px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -912,14 +861,122 @@
     
     .photo- {
         display: inline-block;
-        margin: 8px;
+        margin: 12px;
+        margin-bottom: 10px;
         text-align: left;
 
     }
     
     .photo- img {
+        position: relative;
         width: 100px;
         height: 67px;
+        margin-top:auto;
+        margin-left: px;
+
+        
+    }
+
+}
+
+@media screen and (max-width:280px) {
+    .container-photos h1{
+        text-align: left;
+        margin-bottom: 1px;
+        font: normal normal bold 20px/59px Space Mono;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+    
+    .container-photos {
+        position: relative;
+        text-align: center;
+        margin-bottom: 340px;
+        width: 240px;
+        height: 380px;
+        margin-top: 40px; 
+        border: 1px solid white;
+        
+    }
+    
+    .photo {
+        display: inline-block;
+        margin: 4px;
+        text-align: left;
+        
+    }
+    
+    .photo img {
+        width: 100px;
+        height: 67px;
+        margin-top: 10px;
+        
+    }
+    
+    .container-photos h3{
+        text-align: left;
+        font: normal normal bold 15px/33px Space Mono;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    
+    }
+    
+    .container-photos p{
+        text-align: left;
+        font: normal normal normal 10px/21px Space Mono;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    
+    }
+    
+    .vertical-line {
+        position: relative;
+        text-align: center;
+        width: 240px;
+        margin-top: 40px; 
+        border: 2px solid #4761B4;
+        opacity: 1;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    
+    
+    .photo-container {
+        position: relative;
+        margin-bottom: 180px;
+        margin-top: 40px;
+        width: 220px;
+        height: 270px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border: 1px solid white;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        
+       
+    }
+    
+    .photo- {
+        display: inline-block;
+        margin: 12px;
+        text-align: left;
+
+    }
+    
+    .photo- img {
+        position: relative;
+        width: 100px;
+        height: 67px;
+        margin-top:auto;
+        
+
         
     }
 

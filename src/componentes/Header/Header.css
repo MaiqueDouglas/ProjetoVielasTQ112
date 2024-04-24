@@ -31,7 +31,7 @@
   width: 270px;
   height: 51px;
   margin-left: 70px;
-  margin-top: -50px;
+  margin-top: -45px;
   text-decoration: none;
   font: normal normal bold 46px/69px Space Mono;
   letter-spacing: 0px;
@@ -51,7 +51,7 @@ a{
 
 .linha {
   position: relative;
-  top: 15px;
+  top: 19px;
   width: 93px;
   height: 13px;
   background: #FFFFFF;
@@ -105,7 +105,7 @@ a{
 .login {
   position: relative;
   top:-15px;
-  left: 1445px;
+  left: 1412px;
   transform: translateY(-50%);
   display: flex;
   align-items: center;
@@ -126,16 +126,16 @@ a{
 
 .login img {
   position: relative;
-  top: 3px;
+  top: -2px;
   width: 73px; 
   height: auto;
-  right: -30px;
+  right: -60px;
 
 }
 
 @media screen and (max-width:1440px) {
   .container {
-  
+    position: relative;
     width: 100%;
     height: 100px;
     background: var(---4761b4) 0% 0% no-repeat padding-box;
@@ -152,7 +152,7 @@ a{
       height: 97px;
       margin-left: auto; 
       margin-right: auto; 
-      border: 1px solid #4761B4;
+      
 
   }
   
@@ -160,7 +160,7 @@ a{
     width: 270px;
     height: 51px;
     margin-left: 70px;
-    margin-top: -50px;
+    margin-top: -41px;
     text-decoration: none;
     font: normal normal bold 46px/69px Space Mono;
     letter-spacing: 0px;
@@ -170,6 +170,8 @@ a{
   }
   
   .linha {
+    position: relative;
+    top: 23px;
     width: 93px;
     height: 13px;
     background: #FFFFFF;
@@ -219,7 +221,7 @@ a{
   
   .login img {
     position: relative;
-    top: 2px;
+    top: -5px;
     width: 73px; 
     height: auto;
     right: -30px;
@@ -230,9 +232,9 @@ a{
 
 @media screen and (max-width:1024px) {
   .container {
-  
+    position: relative;
     width: 100%;
-    height: 100px;
+    height: 80px;
     background: var(---4761b4) 0% 0% no-repeat padding-box;
     border: 1px solid var(--unnamed-color-70707000);
     background: #4761B4 0% 0% no-repeat padding-box;
@@ -244,20 +246,20 @@ a{
   .container-component{
       text-align: center;
       width: 755px;
-      height: 97px;
+      height: 77px;
       margin-left: auto; 
       margin-right: auto; 
-      border: 1px solid #4761B4;
+      
 
   }
   
   .container h1 {
     width: 270px;
     height: 51px;
-    margin-left: 20px;
-    margin-top: -50px;
+    margin-left: 10px;
+    margin-top: -43px;
     text-decoration: none;
-    font: normal normal bold 35px/69px Space Mono;
+    font: normal normal bold 30px/69px Space Mono;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -265,8 +267,10 @@ a{
   }
   
   .linha {
+    position: relative;
+    top: 15px;
     width: 73px;
-    height: 13px;
+    height: 9px;
     background: #FFFFFF;
     opacity: 1;
     margin: 5px 0; 
@@ -297,14 +301,14 @@ a{
   .login {
     position: relative;
     top:-15px;
-    left: 560px;
+    left: 615px;
     transform: translateY(-50%);
     display: flex;
     align-items: center;
     width: 92px;
     height: 45px;
     text-align: left;
-    font: normal normal normal 30px/45px Space Mono;
+    font: normal normal normal 18px/45px Space Mono;
     letter-spacing: 0px;
     color: #CCCCCC;
     opacity: 1;
@@ -314,8 +318,8 @@ a{
   
   .login img {
     position: relative;
-    top: 2px;
-    width: 73px; 
+    top: -2px;
+    width: 50px; 
     height: auto;
     right: -30px;
   
@@ -326,7 +330,7 @@ a{
 @media screen and (max-width:540px) {
   .container {
     width: 100%;
-    height: 80px;
+    height: 60px;
     background: var(---4761b4) 0% 0% no-repeat padding-box;
     border: 1px solid var(--unnamed-color-70707000);
     background: #4761B4 0% 0% no-repeat padding-box;
@@ -338,7 +342,7 @@ a{
   .container-component{
       text-align: center;
       width: 400px;
-      height: 77px;
+      height: 50px;
       margin-left: auto; 
       margin-right: auto; 
       border: 1px solid #4761B4;
@@ -346,10 +350,10 @@ a{
   }
   
   .container h1 {
-    margin-left: -40px;
-    margin-top: -40px;
+    margin-left: -55px;
+    margin-top: -41px;
     text-decoration: none;
-    font: normal normal bold 25px/69px Space Mono;
+    font: normal normal bold 20px/69px Space Mono;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -358,9 +362,10 @@ a{
 
   
   .linha {
-
-    width: 40px;
-    height: 7px;
+    position: relative;
+    top: 10px;
+    width: 30px;
+    height: 5px;
     background: #FFFFFF;
     opacity: 1;
     margin: 5px 0; 
@@ -408,7 +413,7 @@ a{
   
   .login img {
     position: relative;
-    top: 2px;
+    top: -1px;
     width: 40px; 
     height: auto;
     right: -10px;
