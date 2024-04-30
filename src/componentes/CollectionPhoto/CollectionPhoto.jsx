@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import './CollectionPhoto.css';
 import Header from '../Header/Header';
 import Input from '../Input/Input';
@@ -17,6 +18,8 @@ import photo9 from "../../assets/Collection9.jpg";
 
 function CollectionPhoto() {
     const { id } = useParams();
+    const navigete = useNavigate();
+
 
     const photos = [
         { id: 1, title: 'Título 1', description: 'Descrição da foto 1', smallDescription: 'Descrição pequena da foto 1', smallTitle: 'Título pequeno 1' },
@@ -63,7 +66,7 @@ function CollectionPhoto() {
                 <label>
                     <input type="checkbox" /> Adicionar ao meu pacote (planos)
                 </label>
-                <button>Comprar</button>
+                <button onClick={() => navigete(`/meucarrinho/${selectedPhoto.id}`)}>Comprar</button>
             </div>
             <div className="small-photo-details">
                 <h3>{selectedPhoto.smallTitle}</h3>

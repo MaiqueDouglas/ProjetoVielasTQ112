@@ -4,7 +4,7 @@ import './Link2.css';
 function Link2() {
     return (
         <div className="Links">
-            <div class="Links-container">
+            <div className="Links-container">
             <a href="/1">#Cambuci</a>
             <a href="/2">#Crise</a>
             <a href="/3">#Alimentação</a>
