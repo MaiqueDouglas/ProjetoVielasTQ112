@@ -12,7 +12,7 @@ function AppRoutes() {
     
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/MeuCarrinho" element={<MeuCarrinho />} />
+        <Route path="/meucarrinho/:id" element= {<MeuCarrinho/>} />
         <Route path="/QuemSomos" element={<QuemSomos />} />
         <Route path="/Equipe" element={<Equipe />} />
         <Route path="/Apoie" element={<Apoie />} />

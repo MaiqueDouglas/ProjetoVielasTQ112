@@ -61,46 +61,6 @@ a{
   
 }
 
-.menu-items {
-  position: absolute;
-  top: 90px;
-  margin-left:-1px;
-  width: 200px;
-  text-align: left;
-  background-color:#4761B4 ; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  display: none;
-  padding: 10px; 
-  z-index: 1000;
-}
- 
-
-.menu-items ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu-items ul li {
-  padding: 10px 0; 
-  border-bottom: 1px solid white; 
-}
-
-.menu-items ul li:last-child {
-  border-bottom: none;
-}
-
-.menu-items ul li a {
-  color: #ffffff; 
-  font: normal normal bold 15px Space Mono;
-  text-decoration: none;
-}
-
-.menu-items ul li a:hover {
-  text-decoration: none;
-  background-color: #a4b7f7;
-}
-
 
 .login {
   position: relative;
