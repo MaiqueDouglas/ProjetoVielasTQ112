@@ -6,7 +6,7 @@ import Equipe from "../Pages/Equipe/Equipe";
 import Apoie from "../Pages/Apoie/Apoie";
 import FaleConosco from "../Pages/Fale Conosco/FaleConosco";
 import CollectionPhoto from "../CollectionPhoto/CollectionPhoto";
-import ResultadoColecoes from "../ResultadoColecoes/ResultadoColecoes";
+import PageResultadoColecoes from "../Pages/PageResultadoColecoes/PageResultadoColecoes";
 
 function AppRoutes() {
   return (
@@ -19,7 +19,7 @@ function AppRoutes() {
         <Route path="/Apoie" element={<Apoie />} />
         <Route path="/FaleConosco" element={<FaleConosco />} />
         <Route path="/Collection/:id" element={<CollectionPhoto />} />
-        <Route path="/ResultadoColecoes" element={<ResultadoColecoes />} />
+        <Route path="/PageResultadoColecoes" element={<PageResultadoColecoes />} />
       </Routes>
     
   );

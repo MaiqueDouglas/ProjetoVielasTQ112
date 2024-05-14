@@ -2,15 +2,15 @@
   import React from 'react';
   import './ResultadoColecoes.css';
   import Imagem1 from '../../assets/Collection1.jpg';
-  import Imagem2 from '../../assets/Collection1.jpg';
-  import Imagem3 from '../../assets/Collection1.jpg';
-  import Imagem4 from '../../assets/Collection1.jpg';
-  import Imagem5 from '../../assets/Collection1.jpg';
-  import Imagem6 from '../../assets/Collection1.jpg';
-  import Imagem7 from '../../assets/Collection1.jpg';
-  import Imagem8 from '../../assets/Collection1.jpg';
-  import Imagem9 from '../../assets/Collection1.jpg';
-  import Imagem10 from '../../assets/Collection1.jpg';
+  import Imagem2 from '../../assets/Collection2.jpg';
+  import Imagem3 from '../../assets/Collection3.jpg';
+  import Imagem4 from '../../assets/Collection4.jpg';
+  import Imagem5 from '../../assets/Collection5.jpg';
+  import Imagem6 from '../../assets/Collection6.jpg';
+  import Imagem7 from '../../assets/Collection7.jpg';
+  import Imagem8 from '../../assets/Collection8.jpg';
+  import Imagem9 from '../../assets/Collection9.jpg';
+  import Imagem10 from '../../assets/Collection10.jpg';
 
   function ResultadoColecoes() {
     return (
