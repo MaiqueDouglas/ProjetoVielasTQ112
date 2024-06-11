@@ -1,0 +1,99 @@
+.plan-selector {
+    position: relative;
+    width: 1200px;
+    margin-left: 115px;
+  }
+
+  .plan-selector h1 {
+    position: absolute;
+    display: inline; 
+    font-size: 40px;
+    background-color: #F4C430;
+    top: 30px;
+    line-height: 1; 
+}
+  
+  .plans {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    padding: 100px 0;
+    margin-bottom: -170px;
+    
+  }
+  
+  .plan {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    margin: 0; 
+  }
+  
+  
+  .plan h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0; 
+    padding: 10px; 
+    border: 1px dashed #F4C430;
+    
+  }
+  
+  .plan h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 100px; 
+    border: 1px dashed #F4C430;
+  }
+  
+ 
+  .plan p {
+    border: 1px dashed #F4C430;
+    padding: 10px 10px;
+    font-size: 20px;
+    
+  }
+
+  .plandow {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    margin: 0; 
+  }
+
+  .plandow h2{
+    text-align: center;
+    padding: 17px;
+    border: 1px dashed #F4C430;
+    background-color: #F4C430;
+
+  }
+
+  .plandow h3{
+    
+    border: 1px dashed #F4C430;
+    padding: 84px;
+    
+    background-color: #F4C430;
+   
+
+  }
+
+  .plandow p{
+    border: 1px dashed #F4C430;
+    padding: 10px 10px;
+    font-size: 20px;
+    height: 230px;
+    background-color: #F4C430;
+
+  }
+  
+  .note p{
+    position: relative;
+    left: 1300px;
+    top: -330px;
+    width: 200px;
+    font-size: 18px;
+    
+    
+  }
+  
