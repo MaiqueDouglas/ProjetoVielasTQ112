@@ -1,0 +1,56 @@
+/* src/Pages/Payment/Payment.css */
+
+.payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .payment-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .payment-form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .personal-details input,
+  .card-details input {
+    width: calc(50% - 10px);
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-methods {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .payment-methods img {
+    width: 50px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  

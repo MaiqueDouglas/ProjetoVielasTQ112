@@ -1,0 +1,56 @@
+/* src/PlanSelector.css */
+
+.plan-selector {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #F4C430;
+  }
+  
+  .plans {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .plan {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 22%;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .plan h2 {
+    background-color: #F4C430;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin: -20px -20px 10px;
+  }
+  
+  .plan h3 {
+    color: #333;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .note {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .references {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #0073e6;
+  }
+  
+  .references a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
