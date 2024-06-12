@@ -7,6 +7,8 @@ import Apoie from "../Pages/Apoie/Apoie";
 import FaleConosco from "../Pages/Fale Conosco/FaleConosco";
 import CollectionPhoto from "../CollectionPhoto/CollectionPhoto";
 import PlanSelector from "../Pages/PlanSelector/PlanSelector";
+import Payment from "../Pages/Pagamento/Payment";
+import Success from "../Pages/Sucesso/Sucess";
 
 
 function AppRoutes() {
@@ -21,6 +23,8 @@ function AppRoutes() {
         <Route path="/FaleConosco" element={<FaleConosco />} />
         <Route path="/Collection/:id" element={<CollectionPhoto />} />
         <Route path="/plan-select" element={<PlanSelector/>} />
+        <Route path="/payment" element={<Payment />} />
+        <Route path="/success" element={<Success/>} />
       </Routes>
     
   );

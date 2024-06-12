@@ -1,0 +1,140 @@
+.payment-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .payment-form-left, .payment-form-right {
+    background-color: white;
+    padding: 40px;
+    border: none;
+    
+  }
+  
+  .payment-form-left {
+    flex: 1;
+    text-align: center;
+    
+
+  }
+  
+  .payment-form-left .logo {
+    width: 50%;
+    height: auto;
+  }
+  
+  .payment-form-right {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+
+  .payment-form-right h2{
+    margin-top: 20px;
+    font-size: 34px;
+    max-width: 700;
+  }
+
+  .payment-form-right h3{
+    margin-top: 20px;
+    font-size: 24px;
+    max-width: 700;
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .form-field {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .form-field:last-child {
+    margin-right: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-methods img {
+    margin-right: 10px;
+  }
+  
+  button.next-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px; 
+    width: 100%; 
+    font-size: 16px; 
+    background-color: #12372A; 
+    color: #fff; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+  }
+  
+  button.next-button:hover {
+    background-color: #004A3f;
+  }
+  
+  .footer {
+    position: absolute;
+    top: 850px;
+    
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .footer-links {
+    position: absolute;
+    text-align: center;
+    
+   
+    
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: #004A3F;
+    font-size: 14px;
+    margin-left: 550px;
+  }
+  
+  .footer-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
