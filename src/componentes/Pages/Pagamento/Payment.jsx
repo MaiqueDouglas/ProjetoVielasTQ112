@@ -4,6 +4,13 @@ import { db, auth } from '../../../firebase';
 import { collection, addDoc } from 'firebase/firestore';
 import { useState } from 'react';
 import logopagamento from '../../../assets/Left side.png';
+import visa from '../../../assets/credit-card.svg';
+import stripe from '../../../assets/credit-card (1).svg';
+import paypal from '../../../assets/credit-card (2).svg';
+import mastercard from '../../../assets/credit-card (3).svg';
+import pay from '../../../assets/credit-card (4).svg';
+import Header from '../../Header/Header';
+import Footer from '../../Footer/Footer';
 
 import './Payment.css'; 
 
@@ -68,10 +75,12 @@ const Payment = () => {
   };
 
   return (
-    <div className="payment-form-container">
-  <div className="payment-form-left">
-    <img src={logopagamento} alt="Gateway de Pagamento" className="logo" />
-  </div>
+<div>
+    <Header/>
+<div className="payment-form-container">
+     <div className="payment-form-left">
+     <img src={logopagamento} alt="Gateway de Pagamento" className="logo" />
+     </div>
   <div className="payment-form-right">
     <h2>Concluir pagamento de registro</h2>
     <form onSubmit={handlePayment}>
@@ -125,11 +134,11 @@ const Payment = () => {
       <div className="form-section">
         <h3>Métodos de Pagamento</h3>
         <div className="payment-methods">
-          <img src="visa.png" alt="Visa" />
-          <img src="stripe.png" alt="Stripe" />
-          <img src="paypal.png" alt="PayPal" />
-          <img src="mastercard.png" alt="Mastercard" />
-          <img src="gpay.png" alt="Google Pay" />
+          <img src={visa} alt="Visa" />
+          <img src={stripe} alt="Stripe" />
+          <img src={paypal} alt="PayPal" />
+          <img src={mastercard} alt="Mastercard" />
+          <img src={pay} alt="Google Pay" />
         </div>
       </div>
       <div className="form-section">
@@ -182,7 +191,7 @@ const Payment = () => {
         </div>
       </div>
       <button type="submit" className="next-button">Próximo</button>
-      <div className="footer-links">
+      <div className="footer-paymentlinks">
             <ul>
             <li><a href="#">Instruções</a></li>
             <li><a href="#">Licença</a></li>
@@ -192,9 +201,11 @@ const Payment = () => {
       </div>
     </form>
   </div>
-  <div className="footer">
+  <div className="footer-payment">
     <p>© 2024, Todos os direitos reservados. Feito por Switcher.faisl</p> 
   </div>
+</div>
+<Footer/>
 </div>
 
   );
