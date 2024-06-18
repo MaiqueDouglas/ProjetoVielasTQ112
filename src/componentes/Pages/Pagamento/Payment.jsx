@@ -66,7 +66,7 @@ const Payment = () => {
 
       console.log('Dados da compra:', purchaseDoc);
       console.log('Dados do pagamento:', paymentDoc);
-      navigate('/success', { state: { paymentDetails: paymentDoc, purchaseDetails: purchaseDoc } });
+      navigate('/', { state: { paymentDetails: paymentDoc, purchaseDetails: purchaseDoc } });
     } catch (error) {
       console.error('Erro ao processar pagamento:', error);
     }

@@ -1,13 +1,15 @@
+// src/components/PlanSelector/PlanSelector.jsx
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { usePurchase } from '../../../contexts/PurchaseContext';
 import './PlanSelector.css';
 
-const PlanSelector = () => {
+const PlanSelector = ({ setPlan }) => { // Receber setPlan como prop
   const navigate = useNavigate();
   const { setPurchaseData } = usePurchase();
 
   const selectPlan = (plan) => {
+    setPlan(plan); // Atualizar o estado de plano
     setPurchaseData(prevData => ({
       ...prevData,
       selectedPlan: plan
