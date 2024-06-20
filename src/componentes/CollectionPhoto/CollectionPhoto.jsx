@@ -1,6 +1,5 @@
 // src/Pages/CollectionPhoto/CollectionPhoto.jsx
-// import React, { useState } from 'react'; // Remove this line if it's not used
-import { useState } from 'react'; // Keep this line
+import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useCart } from '../../contexts/CartContext';
 import './CollectionPhoto.css';
