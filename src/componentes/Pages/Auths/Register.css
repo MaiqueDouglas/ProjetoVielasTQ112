@@ -1,0 +1,42 @@
+.register-container{
+    width: 50%;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.container-register{
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.container-register h1{
+    font-size: 50px;
+}
+
+.container-register form{
+    margin-top: 20px;
+}
+
+.container-register input{
+    border-radius: 20px;
+    width: 70%;
+    height: 50px;
+}
+
+input::placeholder{
+    font-size: 20px;
+}
+
+.container-register button{
+    height: 50px;
+    width: 50%;
+    font-size: 40px;
+    color: white;
+    background-color: #4761B4;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}

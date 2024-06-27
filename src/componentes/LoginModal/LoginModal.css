@@ -87,8 +87,8 @@
   }
   
   .modal-content button {
-    margin-top: 60px;
-    width: 295px;
+    margin-top: 10px;
+    width: 50%;
     height: 85px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;

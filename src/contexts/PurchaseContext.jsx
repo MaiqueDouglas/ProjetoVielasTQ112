@@ -1,3 +1,5 @@
+// src/contexts/PurchaseContext.js
+
 import React, { createContext, useContext, useState } from 'react';
 import PropTypes from 'prop-types';
 

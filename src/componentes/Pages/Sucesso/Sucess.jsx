@@ -1,35 +1,43 @@
+import React from 'react';
 import { useLocation } from 'react-router-dom';
-
+import Header from "../../Header/Header";
+import Footer from "../../Footer/Footer";
+import './Sucess.css'; // Importando o arquivo CSS para estilos da página
 
 const Success = () => {
-  const location = useLocation();
-  const { paymentDetails } = location.state || {};
+    const location = useLocation();
+    const { purchasedPhotos = [], remainingPhotos = 0 } = location.state || {};
 
-  const handleDownloadReceipt = () => {
-    // Lógica para download do recibo em PDF
-    console.log('Baixar recibo em PDF');
-  };
+    console.log('Purchased Photos:', purchasedPhotos); // Log para verificar os dados
 
-  return (
-    <div className="success-container">
-      <div className="success-message">
-        <h1>Pagamento realizado com sucesso!</h1>
-        <h2>IDR 1.000.000</h2>
-      </div>
-      <div className="payment-details">
-        <h3>Detalhes do Pagamento</h3>
-        <p><strong>Ref Number:</strong> {paymentDetails?.refNumber}</p>
-        <p><strong>Payment Time:</strong> {paymentDetails?.paymentTime}</p>
-        <p><strong>Payment Method:</strong> {paymentDetails?.paymentMethod}</p>
-        <p><strong>Sender Name:</strong> {paymentDetails?.senderName}</p>
-        <p><strong>Amount:</strong> {paymentDetails?.amount}</p>
-        <p><strong>Admin Fee:</strong> {paymentDetails?.adminFee}</p>
-        <p><strong>Payment Status:</strong> {paymentDetails?.paymentStatus}</p>
-      </div>
-      <button onClick={handleDownloadReceipt}>Obter Recibo em PDF</button>
-      <button onClick={() => window.location.href = '/home'}>Voltar para Home</button>
-    </div>
-  );
+    return (
+        <div>
+            <Header />
+            <div className="success-container">
+                <h1 className="success-title">Download realizado com sucesso!</h1>
+                <p className="success-subtitle">Você realizou o download das seguintes fotos:</p>
+                <div className="photos-container">
+                    {purchasedPhotos.map(photo => (
+                        <div key={photo.id} className="photo-item">
+                            <img 
+                                src={photo.imageUrl} // Usando a propriedade imageUrl corretamente
+                                alt={`Photo ${photo.id}`} 
+                                className="photo-image" 
+                                onError={(e) => {e.target.onerror = null; e.target.src="https://seu-servidor.com/imagens/fallback.jpg";}} 
+                            />
+                            <div className="photo-details">
+                                <h2 className="photo-title">{photo.title}</h2>
+                                <p className="photo-description">{photo.description}</p>
+                                <a href={photo.imageUrl} download className="download-button">Baixar imagem</a>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+                <h2 className="remaining-downloads">Downloads restantes: {remainingPhotos === Infinity ? 'Ilimitado' : remainingPhotos}</h2>
+            </div>
+            <Footer />
+        </div>
+    );
 };
 
 export default Success;

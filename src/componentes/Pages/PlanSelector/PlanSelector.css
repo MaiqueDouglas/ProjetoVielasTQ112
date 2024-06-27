@@ -2,6 +2,8 @@
     position: relative;
     width: 1200px;
     margin-left: 115px;
+    margin: 0 auto;
+    margin-bottom: 50px;
   }
 
   .plan-selector h1 {
